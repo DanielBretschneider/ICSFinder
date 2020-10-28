@@ -1,0 +1,12 @@
+[INFO][28/10/2020 18:42:26]: Program started
+[INFO][28/10/2020 18:42:35]: Program started
+[INFO][28/10/2020 18:47:06]: Program started
+[INFO][28/10/2020 18:47:06]: [displaymessage] -> (Program started)
+[INFO][28/10/2020 18:47:39]: Program started
+[INFO][28/10/2020 18:47:39]: [displaymessage] -> (ICSFINDER v1.0 started)
+[INFO][28/10/2020 19:01:35]: Program started
+[INFO][28/10/2020 19:01:35]: [displaymessage] -> (ICSFINDER v1.0 started)
+[INFO][28/10/2020 19:01:35]: [displaymessage] -> (Checking if host is connected to the internet...)
+[INFO][28/10/2020 19:01:35]: Attemting to ping 'http://www.google.com/'
+[INFO][28/10/2020 19:01:35]: Successfully pinged 'http://www.google.com/'
+[INFO][28/10/2020 19:01:35]: [displaymessage] -> (Host has internet connection)
