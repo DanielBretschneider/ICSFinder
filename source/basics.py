@@ -62,4 +62,4 @@ def displayMessage(msg):
     just an information on screen. Will be logged.
     """
     print("[*] " + msg)
-    log("[displaymessage] -> (" + msg + ")", 0)
+    log("[basics.displaymessage()] -> (\"" + msg + "\")", 0)

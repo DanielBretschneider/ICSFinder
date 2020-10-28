@@ -12,3 +12,8 @@
 # LOGFILE location
 #
 PATH_LOGFILE = "/home/db/dev/icsfinder/log/icsfinderlog.log"
+
+#
+# CONSOLE PREFIX
+#
+CONSOLE_PREFIX = "icscon > "

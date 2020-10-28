@@ -31,7 +31,11 @@ def main():
     """
     Main method
     """
+    # starting checks 
     startupChecks()
+
+    # start icsfinder console
+    startICSFinderConsole()
 
 
 def startupChecks():
@@ -41,6 +45,29 @@ def startupChecks():
     # check internet connection 
     util.checkInternetConnectivity()
 
+    # TODO add checks for shodan api key etc.
+
+
+def startICSFinderConsole():
+    """
+    Starts interactive console
+    """
+    while True:
+        # read in user input
+        icscommand = util.getICSConsoleCommand()
+        basics.log("User command was '" + icscommand + "'", 0)
+
+        # switch 
+        if (icscommand == "exit"):
+            basics.log("Exiting icsfinder", 0)
+            basics.displayMessage("Exiting icsfinder")
+            exit()
+        elif (icscommand == "help"):
+            util.printHelpMessage()
+        else:
+            basics.displayMessage("'" + icscommand + "' is no valid command. Write 'help' for futher information.")
+            basics.log("'" + icscommand + "' is no valid command. Write 'help' for futher information.", 0)
+        
 
 # ----------------------------------------------------------
 # START OF PROGRAM
