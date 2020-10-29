@@ -1,353 +1,320 @@
-[INFO][28/10/2020 18:42:26]: Program started
-[INFO][28/10/2020 18:42:35]: Program started
-[INFO][28/10/2020 18:47:06]: Program started
-[INFO][28/10/2020 18:47:06]: [displaymessage] -> (Program started)
-[INFO][28/10/2020 18:47:39]: Program started
-[INFO][28/10/2020 18:47:39]: [displaymessage] -> (ICSFINDER v1.0 started)
-[INFO][28/10/2020 19:01:35]: Program started
-[INFO][28/10/2020 19:01:35]: [displaymessage] -> (ICSFINDER v1.0 started)
-[INFO][28/10/2020 19:01:35]: [displaymessage] -> (Checking if host is connected to the internet...)
-[INFO][28/10/2020 19:01:35]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:01:35]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:01:35]: [displaymessage] -> (Host has internet connection)
-[INFO][28/10/2020 19:22:53]: Program started
-[INFO][28/10/2020 19:22:53]: [displaymessage] -> (ICSFINDER v1.0 started)
-[INFO][28/10/2020 19:22:53]: [displaymessage] -> (Checking if host is connected to the internet)
-[INFO][28/10/2020 19:22:53]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:22:54]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:22:54]: [displaymessage] -> (Host has internet connection)
-[INFO][28/10/2020 19:22:55]: User command was ''
-[INFO][28/10/2020 19:22:55]: User command was ''
-[INFO][28/10/2020 19:22:56]: User command was ''
-[INFO][28/10/2020 19:22:56]: User command was ''
-[INFO][28/10/2020 19:22:56]: User command was ''
-[INFO][28/10/2020 19:22:57]: User command was 'exit'
-[INFO][28/10/2020 19:22:57]: Exiting icsfinder
-[INFO][28/10/2020 19:22:57]: [displaymessage] -> (Exiting icsfinder)
-[INFO][28/10/2020 19:23:39]: Program started
-[INFO][28/10/2020 19:23:39]: [displaymessage] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:23:39]: [displaymessage] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:23:39]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:23:39]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:23:39]: [displaymessage] -> ('Host has internet connection')
-[INFO][28/10/2020 19:23:40]: User command was ''
-[INFO][28/10/2020 19:23:40]: User command was ''
-[INFO][28/10/2020 19:23:42]: User command was 'exit'
-[INFO][28/10/2020 19:23:42]: Exiting icsfinder
-[INFO][28/10/2020 19:23:42]: [displaymessage] -> ('Exiting icsfinder')
-[INFO][28/10/2020 19:24:04]: Program started
-[INFO][28/10/2020 19:24:04]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:24:04]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:24:04]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:24:04]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:24:04]: [basics.displaymessage()] -> ('Host has internet connection')
-[INFO][28/10/2020 19:24:04]: User command was ''
-[INFO][28/10/2020 19:24:05]: User command was ''
-[INFO][28/10/2020 19:24:05]: User command was ''
-[INFO][28/10/2020 19:24:05]: User command was 'sd'
-[INFO][28/10/2020 19:24:06]: User command was ''
-[INFO][28/10/2020 19:24:06]: User command was ''
-[INFO][28/10/2020 19:24:06]: User command was ''
-[INFO][28/10/2020 19:24:07]: User command was 'exit'
-[INFO][28/10/2020 19:24:07]: Exiting icsfinder
-[INFO][28/10/2020 19:24:07]: [basics.displaymessage()] -> ('Exiting icsfinder')
-[INFO][28/10/2020 19:27:26]: Program started
-[INFO][28/10/2020 19:27:26]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:27:26]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:27:26]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:28:15]: Program started
-[INFO][28/10/2020 19:28:15]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:28:15]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:28:15]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:40:40]: Program started
-[INFO][28/10/2020 19:40:40]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:40:40]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:40:40]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:40:45]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:40:45]: [basics.displaymessage()] -> ('Host has internet connection')
-[INFO][28/10/2020 19:40:56]: User command was ''
-[INFO][28/10/2020 19:40:56]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:40:56]: User command was ''
-[INFO][28/10/2020 19:40:56]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:40:57]: User command was 'help'
-[INFO][28/10/2020 19:40:57]: 'help' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:40:58]: User command was ''
-[INFO][28/10/2020 19:40:58]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:40:58]: User command was ''
-[INFO][28/10/2020 19:40:58]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:40:59]: User command was 'exit'
-[INFO][28/10/2020 19:40:59]: Exiting icsfinder
-[INFO][28/10/2020 19:40:59]: [basics.displaymessage()] -> ('Exiting icsfinder')
-[INFO][28/10/2020 19:41:43]: Program started
-[INFO][28/10/2020 19:41:43]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:41:43]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:41:43]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:41:49]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:41:49]: [basics.displaymessage()] -> ('Host has internet connection')
-[INFO][28/10/2020 19:41:52]: User command was ''
-[INFO][28/10/2020 19:41:52]: [basics.displaymessage()] -> (''' is no valid command. Write 'help' for futher information.')
-[INFO][28/10/2020 19:41:52]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:41:53]: User command was 'sd'
-[INFO][28/10/2020 19:41:53]: [basics.displaymessage()] -> (''sd' is no valid command. Write 'help' for futher information.')
-[INFO][28/10/2020 19:41:53]: 'sd' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:42:13]: User command was 'exit'
-[INFO][28/10/2020 19:42:13]: Exiting icsfinder
-[INFO][28/10/2020 19:42:13]: [basics.displaymessage()] -> ('Exiting icsfinder')
-[INFO][28/10/2020 19:42:35]: Program started
-[INFO][28/10/2020 19:42:35]: [basics.displaymessage()] -> ('ICSFINDER v1.0 started')
-[INFO][28/10/2020 19:42:35]: [basics.displaymessage()] -> ('Checking if host is connected to the internet')
-[INFO][28/10/2020 19:42:35]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:42:35]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:42:35]: [basics.displaymessage()] -> ('Host is online')
-[INFO][28/10/2020 19:42:37]: User command was ''
-[INFO][28/10/2020 19:42:37]: [basics.displaymessage()] -> (''' is no valid command. Write 'help' for futher information.')
-[INFO][28/10/2020 19:42:37]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:42:37]: User command was ''
-[INFO][28/10/2020 19:42:37]: [basics.displaymessage()] -> (''' is no valid command. Write 'help' for futher information.')
-[INFO][28/10/2020 19:42:37]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:42:38]: User command was 'exit'
-[INFO][28/10/2020 19:42:38]: Exiting icsfinder
-[INFO][28/10/2020 19:42:38]: [basics.displaymessage()] -> ('Exiting icsfinder')
-[INFO][28/10/2020 19:45:07]: Program started
-[INFO][28/10/2020 19:45:07]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:45:07]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:45:07]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:45:07]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:45:07]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:45:08]: User command was 'sd'
-[INFO][28/10/2020 19:45:08]: [basics.displaymessage()] -> ("'sd' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 19:45:08]: 'sd' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:45:08]: User command was ''
-[INFO][28/10/2020 19:45:08]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 19:45:08]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:45:09]: User command was ''
-[INFO][28/10/2020 19:45:09]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 19:45:09]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:45:10]: User command was 'exit'
-[INFO][28/10/2020 19:45:10]: Exiting icsfinder
-[INFO][28/10/2020 19:45:10]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 19:51:06]: Program started
-[INFO][28/10/2020 19:51:06]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:51:06]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:51:06]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:51:11]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:51:11]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:51:14]: User command was 'help'
-[INFO][28/10/2020 19:51:14]: Printing help message
-[INFO][28/10/2020 19:55:24]: User command was '[A'
-[INFO][28/10/2020 19:55:24]: [basics.displaymessage()] -> ("'[A' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 19:55:24]: '[A' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:55:26]: User command was '[A[B[B'
-[INFO][28/10/2020 19:55:26]: [basics.displaymessage()] -> ("'[A[B[B' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 19:55:26]: '[A[B[B' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 19:55:27]: User command was 'exit'
-[INFO][28/10/2020 19:55:27]: Exiting icsfinder
-[INFO][28/10/2020 19:55:27]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 19:55:28]: Program started
-[INFO][28/10/2020 19:55:28]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:55:28]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:55:28]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:55:29]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:55:29]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:55:30]: User command was 'help'
-[INFO][28/10/2020 19:55:30]: Printing help message
-[INFO][28/10/2020 19:59:08]: User command was 'exit'
-[INFO][28/10/2020 19:59:08]: Exiting icsfinder
-[INFO][28/10/2020 19:59:08]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 19:59:09]: Program started
-[INFO][28/10/2020 19:59:09]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:59:09]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:59:09]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:59:09]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:59:09]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:59:11]: User command was 'help'
-[INFO][28/10/2020 19:59:11]: Printing help message
-[INFO][28/10/2020 19:59:11]: Printed help message
-[INFO][28/10/2020 19:59:26]: User command was 'exit'
-[INFO][28/10/2020 19:59:26]: Exiting icsfinder
-[INFO][28/10/2020 19:59:26]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 19:59:27]: Program started
-[INFO][28/10/2020 19:59:27]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:59:27]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:59:27]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:59:37]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:59:37]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:59:40]: User command was 'help'
-[INFO][28/10/2020 19:59:40]: Printing help message
-[INFO][28/10/2020 19:59:40]: Printed help message
-[INFO][28/10/2020 19:59:43]: User command was 'exit'
-[INFO][28/10/2020 19:59:43]: Exiting icsfinder
-[INFO][28/10/2020 19:59:43]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 19:59:48]: Program started
-[INFO][28/10/2020 19:59:48]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 19:59:48]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 19:59:48]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 19:59:48]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 19:59:48]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 19:59:50]: User command was 'help'
-[INFO][28/10/2020 19:59:50]: Printing help message
-[INFO][28/10/2020 19:59:50]: Printed help message
-[INFO][28/10/2020 20:00:22]: User command was 'exit'
-[INFO][28/10/2020 20:00:22]: Exiting icsfinder
-[INFO][28/10/2020 20:00:22]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:00:23]: Program started
-[INFO][28/10/2020 20:00:23]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:00:23]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:00:23]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:00:24]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:00:24]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:00:25]: User command was 'help'
-[INFO][28/10/2020 20:00:25]: Printing help message
-[INFO][28/10/2020 20:00:25]: Printed help message
-[INFO][28/10/2020 20:02:35]: User command was ''
-[INFO][28/10/2020 20:02:35]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:02:35]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:02:36]: User command was 'sd'
-[INFO][28/10/2020 20:02:36]: [basics.displaymessage()] -> ("'sd' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:02:36]: 'sd' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:02:40]: User command was 'help'
-[INFO][28/10/2020 20:02:40]: Printing help message
-[INFO][28/10/2020 20:02:40]: Printed help message
-[INFO][28/10/2020 20:02:51]: User command was ''
-[INFO][28/10/2020 20:02:51]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:02:51]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:02:52]: User command was ''
-[INFO][28/10/2020 20:02:52]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:02:52]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:03:08]: User command was 'exitz'
-[INFO][28/10/2020 20:03:08]: [basics.displaymessage()] -> ("'exitz' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:03:08]: 'exitz' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:03:10]: User command was '[A'
-[INFO][28/10/2020 20:03:10]: [basics.displaymessage()] -> ("'[A' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:03:10]: '[A' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:03:12]: User command was 'exit'
-[INFO][28/10/2020 20:03:12]: Exiting icsfinder
-[INFO][28/10/2020 20:03:12]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:03:14]: Program started
-[INFO][28/10/2020 20:03:14]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:03:14]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:03:14]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:03:14]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:03:14]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:03:16]: User command was 'help'
-[INFO][28/10/2020 20:03:16]: Printing help message
-[INFO][28/10/2020 20:03:16]: Printed help message
-[INFO][28/10/2020 20:03:39]: User command was '[D'
-[INFO][28/10/2020 20:03:39]: [basics.displaymessage()] -> ("'[D' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:03:39]: '[D' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:03:40]: User command was 'exit+'
-[INFO][28/10/2020 20:03:40]: [basics.displaymessage()] -> ("'exit+' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:03:40]: 'exit+' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:03:42]: User command was 'exit'
-[INFO][28/10/2020 20:03:42]: Exiting icsfinder
-[INFO][28/10/2020 20:03:42]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:03:43]: Program started
-[INFO][28/10/2020 20:03:43]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:03:43]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:03:43]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:03:43]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:03:43]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:03:45]: User command was 'help'
-[INFO][28/10/2020 20:03:45]: Printing help message
-[INFO][28/10/2020 20:03:45]: Printed help message
-[INFO][28/10/2020 20:11:52]: Program started
-[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:11:52]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:11:52]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:12:05]: User command was 'help'
-[INFO][28/10/2020 20:12:05]: Printed help message
-[INFO][28/10/2020 20:12:09]: User command was 'show ip'
-[INFO][28/10/2020 20:12:09]: [basics.displaymessage()] -> ("'show ip' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:12:09]: 'show ip' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:12:13]: User command was 'sdsdsd'
-[INFO][28/10/2020 20:12:13]: [basics.displaymessage()] -> ("'sdsdsd' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:12:13]: 'sdsdsd' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:12:15]: User command was ''
-[INFO][28/10/2020 20:12:15]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:12:15]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:12:15]: User command was ''
-[INFO][28/10/2020 20:12:15]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:12:15]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:12:17]: User command was 'exit'
-[INFO][28/10/2020 20:12:17]: Exiting icsfinder
-[INFO][28/10/2020 20:12:17]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:20:24]: Program started
-[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:20:24]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:20:24]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:20:26]: User command was 'help'
-[INFO][28/10/2020 20:20:26]: Printed help message
-[INFO][28/10/2020 20:20:32]: User command was 'show ip'
-[INFO][28/10/2020 20:20:32]: [basics.displaymessage()] -> ("'show ip' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:20:32]: 'show ip' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:20:36]: User command was 'exit'
-[INFO][28/10/2020 20:20:36]: Exiting icsfinder
-[INFO][28/10/2020 20:20:36]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:20:50]: Program started
-[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:20:50]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:20:50]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:20:53]: User command was 'help'
-[INFO][28/10/2020 20:20:53]: Printed help message
-[INFO][28/10/2020 20:20:54]: User command was 'exit'
-[INFO][28/10/2020 20:20:54]: Exiting icsfinder
-[INFO][28/10/2020 20:20:54]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][28/10/2020 20:21:47]: Program started
-[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][28/10/2020 20:21:47]: Attemting to ping 'http://www.google.com/'
-[INFO][28/10/2020 20:21:47]: Successfully pinged 'http://www.google.com/'
-[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Host is online")
-[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Start gathering ICS information")
-[INFO][28/10/2020 20:25:35]: User command was ''
-[INFO][28/10/2020 20:25:35]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][28/10/2020 20:25:35]: '' is no valid command. Write 'help' for futher information.
-[INFO][28/10/2020 20:37:02]: User command was 'exit'
-[INFO][28/10/2020 20:37:02]: Exiting icsfinder
-[INFO][28/10/2020 20:37:02]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][29/10/2020 17:52:02]: Program started
-[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][29/10/2020 17:52:02]: Attemting to ping 'http://www.google.com/'
-[INFO][29/10/2020 17:52:02]: Successfully pinged 'http://www.google.com/'
-[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Host is online")
-[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Start gathering ICS information")
-[INFO][29/10/2020 17:52:12]: User command was ''
-[INFO][29/10/2020 17:52:12]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
-[INFO][29/10/2020 17:52:12]: '' is no valid command. Write 'help' for futher information.
-[INFO][29/10/2020 17:52:19]: User command was 'exit'
-[INFO][29/10/2020 17:52:19]: Exiting icsfinder
-[INFO][29/10/2020 17:52:19]: [basics.displaymessage()] -> ("Exiting icsfinder")
-[INFO][29/10/2020 17:52:57]: Program started
-[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
-[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
-[INFO][29/10/2020 17:52:57]: Attemting to ping 'http://www.google.com/'
-[INFO][29/10/2020 17:52:57]: Successfully pinged 'http://www.google.com/'
-[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Host is online")
-[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Start gathering ICS information")
-[INFO][29/10/2020 17:52:58]: User command was ''
-[INFO][29/10/2020 17:52:59]: User command was ''
-[INFO][29/10/2020 17:52:59]: User command was ''
-[INFO][29/10/2020 17:52:59]: User command was ''
-[INFO][29/10/2020 17:52:59]: User command was ''
-[INFO][29/10/2020 17:52:59]: User command was ''
-[INFO][29/10/2020 17:53:00]: User command was 's'
-[INFO][29/10/2020 17:53:00]: [basics.displaymessage()] -> ("'s' is no valid command. Write 'help' for futher information.")
-[INFO][29/10/2020 17:53:00]: 's' is no valid command. Write 'help' for futher information.
-[INFO][29/10/2020 17:53:02]: User command was ''
-[INFO][29/10/2020 17:53:02]: User command was ''
-[INFO][29/10/2020 17:53:08]: User command was 'help'
-[INFO][29/10/2020 17:53:08]: Printed help message
-[INFO][29/10/2020 17:53:09]: User command was ''
-[INFO][29/10/2020 17:53:09]: User command was ''
-[INFO][29/10/2020 17:53:09]: User command was ''
-[INFO][29/10/2020 17:53:10]: User command was ''
-[INFO][29/10/2020 17:53:12]: User command was 'exit'
-[INFO][29/10/2020 17:53:12]: Exiting icsfinder
-[INFO][29/10/2020 17:53:12]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 18:34:46]: Program started
+[INFO][29/10/2020 18:34:46]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:34:46]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:34:46]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:34:46]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:34:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:34:46]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:34:46]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 18:34:46]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 18:34:46]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 18:34:46]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:34:46]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:34:46]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:34:46]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 18:34:51]: User command was 'help'
+[INFO][29/10/2020 18:34:51]: Printed help message
+[INFO][29/10/2020 18:34:51]: User command was 'exit'
+[INFO][29/10/2020 18:34:51]: Exiting icsfinder
+[INFO][29/10/2020 18:34:51]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 18:58:18]: Program started
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:58:18]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:58:18]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:58:18]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:58:18]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 18:58:18]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 18:58:18]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 18:58:18]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:18]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:58:18]: Attempting to create tables in database
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 18:58:18]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 18:58:18]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 18:58:18]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 18:58:18]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 18:58:18]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:18]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 18:58:18]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 18:58:35]: Program started
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:58:35]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:58:35]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:58:35]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:58:35]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 18:58:35]: Database file already exists. Try connecting
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 18:58:35]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:35]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:58:35]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 18:58:38]: Program started
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:58:38]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:58:38]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:58:38]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:58:38]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 18:58:38]: Database file already exists. Try connecting
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 18:58:38]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:38]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:58:38]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 18:58:46]: Program started
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:58:46]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:58:46]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:58:46]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:58:46]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 18:58:46]: Database file already exists. Try connecting
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 18:58:46]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:46]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:58:46]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 18:58:58]: Program started
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 18:58:58]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 18:58:58]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 18:58:58]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 18:58:58]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 18:58:58]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 18:58:58]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 18:58:58]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:58]: Successfully connected to datbase; returning
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 18:58:58]: Attempting to create tables in database
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 18:58:58]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 18:58:58]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 18:58:58]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 18:58:58]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 18:58:58]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 18:58:58]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 18:58:58]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:01:05]: Program started
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:01:05]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:01:05]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:01:05]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:01:05]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 19:01:05]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 19:01:05]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:01:05]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:01:05]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:01:05]: Attempting to create tables in database
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 19:01:05]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 19:01:05]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 19:01:05]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 19:01:05]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 19:01:05]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:01:05]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 19:01:05]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:01:50]: Program started
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:01:50]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:01:50]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:01:50]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:01:50]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 19:01:50]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 19:01:50]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:01:50]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:01:50]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:01:50]: Attempting to create tables in database
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 19:01:50]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 19:01:50]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 19:01:50]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 19:01:50]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 19:01:50]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:01:50]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 19:01:50]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:01:57]: User command was ''
+[INFO][29/10/2020 19:01:57]: User command was ''
+[INFO][29/10/2020 19:04:59]: User command was 'exit'
+[INFO][29/10/2020 19:04:59]: Exiting icsfinder
+[INFO][29/10/2020 19:04:59]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:05:02]: Program started
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:05:02]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:05:02]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:05:02]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:05:02]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 19:05:02]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 19:05:02]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:05:02]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:05:02]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:05:02]: Attempting to create tables in database
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 19:05:02]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 19:05:02]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 19:05:02]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 19:05:02]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 19:05:02]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:05:02]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 19:05:02]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:07:08]: User command was 'exit'
+[INFO][29/10/2020 19:07:08]: Exiting icsfinder
+[INFO][29/10/2020 19:07:08]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:07:09]: Program started
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:07:09]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:07:09]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:07:09]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:07:09]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 19:07:09]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 19:07:09]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:07:09]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:07:09]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:07:09]: Attempting to create tables in database
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[ERROR][29/10/2020 19:07:09]: There was an error creating table 'ICSDevices'
+[INFO][29/10/2020 19:07:09]: [basics.displayWarning()] -> ("There was an error creating table 'ICSDevices'")
+[INFO][29/10/2020 19:07:09]: [basics.displayWarning()] -> ("Program cannot function correctly if database is inconsistent")
+[INFO][29/10/2020 19:07:09]: [basics.displayWarning()] -> ("Please delete database file at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Exiting ICSFinder")
+[ERROR][29/10/2020 19:07:09]: Couldn't establish connection to database file at: +/home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:07:09]: [basics.displayWarning()] -> ("Couldn't establish connection to database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db")
+[INFO][29/10/2020 19:07:09]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:07:12]: User command was 'exit'
+[INFO][29/10/2020 19:07:12]: Exiting icsfinder
+[INFO][29/10/2020 19:07:12]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:08:37]: Program started
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:08:37]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:08:37]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:08:37]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:08:37]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 19:08:37]: Database file already exists. Try connecting
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 19:08:37]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:08:37]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:08:37]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:08:38]: User command was 'exit'
+[INFO][29/10/2020 19:08:38]: Exiting icsfinder
+[INFO][29/10/2020 19:08:38]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:08:42]: Program started
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:08:42]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:08:42]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:08:42]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:08:42]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' does not exists
+[INFO][29/10/2020 19:08:42]: Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'
+[INFO][29/10/2020 19:08:42]: [basics.displayWarning()] -> ("Database file not found. Will be created at '/home/db/dev/icsfinder/db/icsfinder_fb.db'")
+[INFO][29/10/2020 19:08:42]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:08:42]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:08:42]: Attempting to create tables in database
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("Attempting to create tables in database as file was initially created")
+[INFO][29/10/2020 19:08:42]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:08:47]: User command was 'exit'
+[INFO][29/10/2020 19:08:47]: Exiting icsfinder
+[INFO][29/10/2020 19:08:47]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:10:19]: Program started
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:10:19]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:10:19]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:10:19]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:10:19]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 19:10:19]: Database file already exists. Try connecting
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 19:10:19]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:10:19]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:10:19]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:13:27]: Program started
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:13:27]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:13:27]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:13:27]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:13:27]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 19:13:27]: Database file already exists. Try connecting
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 19:13:27]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:13:27]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:13:27]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:13:49]: User command was 'exit'
+[INFO][29/10/2020 19:13:49]: Exiting icsfinder
+[INFO][29/10/2020 19:13:49]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 19:14:25]: Program started
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:14:25]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:14:25]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:14:25]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:14:25]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 19:14:25]: Database file already exists. Try connecting
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 19:14:25]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:14:25]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:14:25]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:14:29]: User command was 'show devices all'
+[INFO][29/10/2020 19:15:22]: Program started
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 19:15:22]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 19:15:22]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("Host is online")
+[INFO][29/10/2020 19:15:22]: Checking if file '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists.
+[INFO][29/10/2020 19:15:22]: File '/home/db/dev/icsfinder/db/icsfinder_fb.db' exists
+[INFO][29/10/2020 19:15:22]: Database file already exists. Try connecting
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("Datbase file already exists. Try connecting.")
+[INFO][29/10/2020 19:15:22]: Attempting to create or open database file at: /home/db/dev/icsfinder/db/icsfinder_fb.db
+[INFO][29/10/2020 19:15:22]: Successfully connected to datbase; returning
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("Successfully connected to database.")
+[INFO][29/10/2020 19:15:22]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 19:15:22]: User command was ''
+[INFO][29/10/2020 19:15:23]: User command was ''
+[INFO][29/10/2020 19:15:24]: User command was 'help'
+[INFO][29/10/2020 19:15:24]: Printed help message
+[INFO][29/10/2020 19:15:25]: User command was ''
+[INFO][29/10/2020 19:15:25]: User command was ''
+[INFO][29/10/2020 19:15:29]: User command was 'show ip'
+[INFO][29/10/2020 19:15:29]: [basics.displayMessage()] -> ("'show ip' is no valid command. Write 'help' for futher information.")
+[INFO][29/10/2020 19:15:29]: 'show ip' is no valid command. Write 'help' for futher information.
+[INFO][29/10/2020 19:15:30]: User command was ''
+[INFO][29/10/2020 19:15:31]: User command was ''
+[INFO][29/10/2020 19:15:32]: User command was 'exit'
+[INFO][29/10/2020 19:15:32]: Exiting icsfinder
+[INFO][29/10/2020 19:15:32]: [basics.displayMessage()] -> ("Exiting icsfinder")
