@@ -250,3 +250,104 @@
 [INFO][28/10/2020 20:03:45]: User command was 'help'
 [INFO][28/10/2020 20:03:45]: Printing help message
 [INFO][28/10/2020 20:03:45]: Printed help message
+[INFO][28/10/2020 20:11:52]: Program started
+[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][28/10/2020 20:11:52]: Attemting to ping 'http://www.google.com/'
+[INFO][28/10/2020 20:11:52]: Successfully pinged 'http://www.google.com/'
+[INFO][28/10/2020 20:11:52]: [basics.displaymessage()] -> ("Host is online")
+[INFO][28/10/2020 20:12:05]: User command was 'help'
+[INFO][28/10/2020 20:12:05]: Printed help message
+[INFO][28/10/2020 20:12:09]: User command was 'show ip'
+[INFO][28/10/2020 20:12:09]: [basics.displaymessage()] -> ("'show ip' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:12:09]: 'show ip' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:12:13]: User command was 'sdsdsd'
+[INFO][28/10/2020 20:12:13]: [basics.displaymessage()] -> ("'sdsdsd' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:12:13]: 'sdsdsd' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:12:15]: User command was ''
+[INFO][28/10/2020 20:12:15]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:12:15]: '' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:12:15]: User command was ''
+[INFO][28/10/2020 20:12:15]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:12:15]: '' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:12:17]: User command was 'exit'
+[INFO][28/10/2020 20:12:17]: Exiting icsfinder
+[INFO][28/10/2020 20:12:17]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][28/10/2020 20:20:24]: Program started
+[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][28/10/2020 20:20:24]: Attemting to ping 'http://www.google.com/'
+[INFO][28/10/2020 20:20:24]: Successfully pinged 'http://www.google.com/'
+[INFO][28/10/2020 20:20:24]: [basics.displaymessage()] -> ("Host is online")
+[INFO][28/10/2020 20:20:26]: User command was 'help'
+[INFO][28/10/2020 20:20:26]: Printed help message
+[INFO][28/10/2020 20:20:32]: User command was 'show ip'
+[INFO][28/10/2020 20:20:32]: [basics.displaymessage()] -> ("'show ip' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:20:32]: 'show ip' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:20:36]: User command was 'exit'
+[INFO][28/10/2020 20:20:36]: Exiting icsfinder
+[INFO][28/10/2020 20:20:36]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][28/10/2020 20:20:50]: Program started
+[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][28/10/2020 20:20:50]: Attemting to ping 'http://www.google.com/'
+[INFO][28/10/2020 20:20:50]: Successfully pinged 'http://www.google.com/'
+[INFO][28/10/2020 20:20:50]: [basics.displaymessage()] -> ("Host is online")
+[INFO][28/10/2020 20:20:53]: User command was 'help'
+[INFO][28/10/2020 20:20:53]: Printed help message
+[INFO][28/10/2020 20:20:54]: User command was 'exit'
+[INFO][28/10/2020 20:20:54]: Exiting icsfinder
+[INFO][28/10/2020 20:20:54]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][28/10/2020 20:21:47]: Program started
+[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][28/10/2020 20:21:47]: Attemting to ping 'http://www.google.com/'
+[INFO][28/10/2020 20:21:47]: Successfully pinged 'http://www.google.com/'
+[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Host is online")
+[INFO][28/10/2020 20:21:47]: [basics.displaymessage()] -> ("Start gathering ICS information")
+[INFO][28/10/2020 20:25:35]: User command was ''
+[INFO][28/10/2020 20:25:35]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
+[INFO][28/10/2020 20:25:35]: '' is no valid command. Write 'help' for futher information.
+[INFO][28/10/2020 20:37:02]: User command was 'exit'
+[INFO][28/10/2020 20:37:02]: Exiting icsfinder
+[INFO][28/10/2020 20:37:02]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 17:52:02]: Program started
+[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 17:52:02]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 17:52:02]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Host is online")
+[INFO][29/10/2020 17:52:02]: [basics.displaymessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 17:52:12]: User command was ''
+[INFO][29/10/2020 17:52:12]: [basics.displaymessage()] -> ("'' is no valid command. Write 'help' for futher information.")
+[INFO][29/10/2020 17:52:12]: '' is no valid command. Write 'help' for futher information.
+[INFO][29/10/2020 17:52:19]: User command was 'exit'
+[INFO][29/10/2020 17:52:19]: Exiting icsfinder
+[INFO][29/10/2020 17:52:19]: [basics.displaymessage()] -> ("Exiting icsfinder")
+[INFO][29/10/2020 17:52:57]: Program started
+[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("ICSFINDER v1.0 started")
+[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Checking if host is connected to the internet")
+[INFO][29/10/2020 17:52:57]: Attemting to ping 'http://www.google.com/'
+[INFO][29/10/2020 17:52:57]: Successfully pinged 'http://www.google.com/'
+[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Host is online")
+[INFO][29/10/2020 17:52:57]: [basics.displaymessage()] -> ("Start gathering ICS information")
+[INFO][29/10/2020 17:52:58]: User command was ''
+[INFO][29/10/2020 17:52:59]: User command was ''
+[INFO][29/10/2020 17:52:59]: User command was ''
+[INFO][29/10/2020 17:52:59]: User command was ''
+[INFO][29/10/2020 17:52:59]: User command was ''
+[INFO][29/10/2020 17:52:59]: User command was ''
+[INFO][29/10/2020 17:53:00]: User command was 's'
+[INFO][29/10/2020 17:53:00]: [basics.displaymessage()] -> ("'s' is no valid command. Write 'help' for futher information.")
+[INFO][29/10/2020 17:53:00]: 's' is no valid command. Write 'help' for futher information.
+[INFO][29/10/2020 17:53:02]: User command was ''
+[INFO][29/10/2020 17:53:02]: User command was ''
+[INFO][29/10/2020 17:53:08]: User command was 'help'
+[INFO][29/10/2020 17:53:08]: Printed help message
+[INFO][29/10/2020 17:53:09]: User command was ''
+[INFO][29/10/2020 17:53:09]: User command was ''
+[INFO][29/10/2020 17:53:09]: User command was ''
+[INFO][29/10/2020 17:53:10]: User command was ''
+[INFO][29/10/2020 17:53:12]: User command was 'exit'
+[INFO][29/10/2020 17:53:12]: Exiting icsfinder
+[INFO][29/10/2020 17:53:12]: [basics.displaymessage()] -> ("Exiting icsfinder")

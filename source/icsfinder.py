@@ -46,6 +46,7 @@ def startupChecks():
     util.checkInternetConnectivity()
 
     # TODO add checks for shodan api key etc.
+    basics.displayMessage("Start gathering ICS information")
 
 
 def startICSFinderConsole():
@@ -64,6 +65,8 @@ def startICSFinderConsole():
             exit()
         elif (icscommand == "help"):
             util.printHelpMessage()
+        elif (icscommand == ""):
+            continue
         else:
             basics.displayMessage("'" + icscommand + "' is no valid command. Write 'help' for futher information.")
             basics.log("'" + icscommand + "' is no valid command. Write 'help' for futher information.", 0)

@@ -56,7 +56,8 @@ def getICSConsoleCommand():
     command = input(constants.CONSOLE_PREFIX)
 
     # return given command without leading and trailing whitespace
-    return command.strip()
+    # and in lower case - for easier command proccessing
+    return command.strip().lower()
 
 
 # ----------------------------------------------------------
