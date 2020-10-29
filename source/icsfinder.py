@@ -16,13 +16,14 @@ __created__ = "28.10.2020"
 # ----------------------------------------------------------
 import basics
 import constants
+import database
 import util
 
 
 # ----------------------------------------------------------
 # GLOBAL VARIABLES
 # ----------------------------------------------------------
-
+DB_CONNECTION = None
 
 # ----------------------------------------------------------
 # FUNCTIONS
@@ -44,6 +45,9 @@ def startupChecks():
     """
     # check internet connection 
     util.checkInternetConnectivity()
+
+    # create database if not already existing
+    DB_CONNECTION = database.createDatabaseConnection()
 
     # TODO add checks for shodan api key etc.
     basics.displayMessage("Start gathering ICS information")

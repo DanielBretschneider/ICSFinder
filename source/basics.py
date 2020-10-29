@@ -62,4 +62,32 @@ def displayMessage(msg):
     just an information on screen. Will be logged.
     """
     print("[*] " + msg)
-    log("[basics.displaymessage()] -> (\"" + msg + "\")", 0)
+    log("[basics.displayMessage()] -> (\"" + msg + "\")", 0)
+
+
+def displayWarning(msg):
+    """
+    Display message about status, progress or 
+    just an information on screen. Will be logged.
+    """
+    print('\33[93m' + "[*] " + msg + '\033[0m')
+    log("[basics.displayWarning()] -> (\"" + msg + "\")", 0)
+
+
+# ----------------------------------------------------------
+# CHECK IF SPECIFIC FILE EXISTS AT GIVEN PATH
+# ----------------------------------------------------------
+def checkIfFileExists(path):
+    """
+    Check if a certain file exists at a given path
+    """
+    # log activity
+    log("Checking if file '" + path + "' exists.", 0)
+
+    # check if file exists
+    if (os.path.exists(path)):
+        log("File '" + path + "' exists", 0)
+        return True
+    else:
+        log("File '" + path + "' does not exists", 0)
+        return False

@@ -17,3 +17,8 @@ PATH_LOGFILE = "/home/db/dev/icsfinder/log/icsfinderlog.log"
 # CONSOLE PREFIX
 #
 CONSOLE_PREFIX = "icscon > "
+
+#
+# DATBASE NAME
+#
+DATABASE_FILE = "/home/db/dev/icsfinder/db/icsfinder_fb.db"
