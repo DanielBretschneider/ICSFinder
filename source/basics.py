@@ -18,7 +18,9 @@ from datetime import datetime
 # ----------------------------------------------------------
 # LOGGING
 # ----------------------------------------------------------
-def log(msg, loglevel):
+
+
+def log(msg, log_level):
     """
     Used for logging purpose.
     Message won't be seen in terminal and
@@ -36,27 +38,28 @@ def log(msg, loglevel):
     now = datetime.now()
 
     # format datetime string 
-    formattedTimeString = now.strftime("%d/%m/%Y %H:%M:%S")
+    formatted_time_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
     # Write, or better append, message to file
     with open(constants.PATH_LOGFILE, mode) as f:
-        f.write(str(getLogLevel(loglevel)) + "[" + formattedTimeString + "]: " + msg + "\n")
+        f.write(str(get_log_level(log_level)) + "[" + formatted_time_string + "]: " + msg + "\n")
 
 
-def getLogLevel(loglevel):
+def get_log_level(log_level):
     """
     Returns Loglevel as string
     """
     return {
-        0 : "[INFO]",
-        1 : "[WARNING]",
-        2 : "[ERROR]"
-    }[loglevel]
+        0: "[INFO]",
+        1: "[WARNING]",
+        2: "[ERROR]"
+    }[log_level]
+
 
 # ----------------------------------------------------------
 # PRINT TO SCREEN
 # ----------------------------------------------------------
-def displayMessage(msg):
+def display_message(msg):
     """
     Display message about status, progress or 
     just an information on screen. Will be logged.
@@ -65,29 +68,10 @@ def displayMessage(msg):
     log("[basics.displayMessage()] -> (\"" + msg + "\")", 0)
 
 
-def displayWarning(msg):
+def display_warning(msg):
     """
     Display message about status, progress or 
     just an information on screen. Will be logged.
     """
     print('\33[93m' + "[*] " + msg + '\033[0m')
     log("[basics.displayWarning()] -> (\"" + msg + "\")", 0)
-
-
-# ----------------------------------------------------------
-# CHECK IF SPECIFIC FILE EXISTS AT GIVEN PATH
-# ----------------------------------------------------------
-def checkIfFileExists(path):
-    """
-    Check if a certain file exists at a given path
-    """
-    # log activity
-    log("Checking if file '" + path + "' exists.", 0)
-
-    # check if file exists
-    if (os.path.exists(path)):
-        log("File '" + path + "' exists", 0)
-        return True
-    else:
-        log("File '" + path + "' does not exists", 0)
-        return False

@@ -13,94 +13,47 @@
 import sqlite3
 import constants
 import basics
-import sys
-
+import util
 
 # ----------------------------------------------------------
 # FUNCTIONS
 # ----------------------------------------------------------
 
-def createDatabaseConnection():
+
+def create_database_connection():
     """
     Creates SQLite3 database in case 
     the database doesn't already exist
     """
-    # connection to db database
-    db_connection = None
+    connection = None
 
-    # if true tables have to be created
-    databaseIsExisting = True
+    # check if file exists
+    if not util.check_if_file_exists(constants.DATABASE_PATH + constants.DATABASE_FILE):
+        util.create_file(constants.DATABASE_PATH + constants.DATABASE_FILE)
 
-    if (basics.checkIfFileExists(constants.DATABASE_FILE)):
-        basics.log("Database file already exists. Try connecting", 0)
-        basics.displayMessage("Datbase file already exists. Try connecting.")
-    else:
-        basics.log("Database file not found. Will be created at '" + constants.DATABASE_FILE + "'", 0)
-        basics.displayWarning("Database file not found. Will be created at '" + constants.DATABASE_FILE + "'")
-        databaseIsExisting = False
-
-    # try connecting
+    # create connection
     try:
-        # log activity
-        basics.log("Attempting to create or open database file at: " + constants.DATABASE_FILE, 0)
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        return connection
+    except Exception as e:
+        basics.log("Error while connecting to database! \n" + str(e), 0)
 
-        # open database connection
-        db_connection = sqlite3.connect(constants.DATABASE_FILE)
-
-        # if no error occured then connection will now be returned
-        basics.log("Successfully connected to datbase; returning", 0)
-        basics.displayMessage("Successfully connected to database.")
-        
-        # create table if file was created now
-        if (databaseIsExisting == False):
-            createTables(db_connection)
-
-        # return connection
-        return db_connection
-    except:
-        # log error connecting to db
-        basics.log("Couldn't establish connection to database file at: +" + constants.DATABASE_FILE, 2)
-
-        # dispaly error message
-        basics.displayWarning("Couldn't establish connection to database file at: " + constants.DATABASE_FILE)
+    # return connection anyways
+    return connection
 
 
-def createTables(db_connection):
+def create_database_table(db_connection, create_table_sql_statement):
     """
-    This function will only be exexuted if 
-    database file was initially created
+    create a table from the create_table_sql statement
+    :param db_connection: Connection object
+    :param create_table_sql_statement: a CREATE TABLE statement
+    :return:
     """
-    # sql create table statement
-    sql_create_devices_table = """CREATE TABLE IF NOT EXISTS ICSDevices (
-                                    id integer PRIMARY KEY,
-                                    name text NOT NULL,
-                                    status_id integer NOT NULL,
-                                    begin_date text NOT NULL,
-                                    end_date text NOT NULL
-                                );"""
-    
-    # if db_connection is not null
     try:
-        # attempt to create tables
-        basics.log("Attempting to create tables in database", 0)
-        basics.displayMessage("Attempting to create tables in database as file was initially created")
         cursor = db_connection.cursor()
-        cursor.execute(sql_create_devices_table)
-        cursor.commit()
-        cursor.close()
-    except:
-        # tables have been successfully created
-        basics.log("Successfully created table ICSDevices inside database", 0)
-        basics.displayMessage("Successfully created table ICSDevices inside database")
-        pass
+        cursor.execute(create_table_sql_statement)
+        db_connection.commit()
+    except Exception as e:
+        basics.log("Error while executing sql-statement \n" + create_table_sql_statement + "\nError:\n" + str(e), 0)
 
-
-def printTableContents(db_connection):
-    with db_connection:
-        cursor = db_connection.cursor()
-        cursor.execute("SELECT * FROM ICSDevices")
-        rows = cursor.fetchall()
-
-        for row in rows:
-            print(row)
 

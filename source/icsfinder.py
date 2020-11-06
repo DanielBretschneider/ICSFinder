@@ -25,55 +25,61 @@ import util
 # ----------------------------------------------------------
 DB_CONNECTION = None
 
+
 # ----------------------------------------------------------
 # FUNCTIONS
 # ----------------------------------------------------------
+
+
 def main():
     """
     Main method
     """
     # starting checks 
-    startupChecks()
+    startup_checks()
 
     # start icsfinder console
-    startICSFinderConsole()
+    start_interactive_console()
 
 
-def startupChecks():
+def startup_checks():
     """
     Check if has active internet connection
     """
     # check internet connection 
-    util.checkInternetConnectivity()
+    util.check_internet_connectivity()
 
     # create database if not already existing
-    DB_CONNECTION = database.createDatabaseConnection()
+    database_connection = database.create_database_connection()
+
+    # create tables if necessary
+    database.create_database_table(database_connection, constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE)
 
     # TODO add checks for shodan api key etc.
-    basics.displayMessage("Start gathering ICS information")
+    basics.display_message("Start gathering ICS information")
 
 
-def startICSFinderConsole():
+def start_interactive_console():
     """
     Starts interactive console
     """
     while True:
         # read in user input
-        icscommand = util.getICSConsoleCommand()
-        basics.log("User command was '" + icscommand + "'", 0)
+        command = util.get_next_ics_command()
+        basics.log("User command was '" + command + "'", 0)
 
         # switch 
-        if (icscommand == "exit"):
+        if command == "exit":
             basics.log("Exiting icsfinder", 0)
-            basics.displayMessage("Exiting icsfinder")
+            basics.display_message("Exiting icsfinder")
             exit()
-        elif (icscommand == "help"):
-            util.printHelpMessage()
-        elif (icscommand == ""):
+        elif command == "help":
+            util.print_help_message()
+        elif command == "":
             continue
         else:
-            basics.displayMessage("'" + icscommand + "' is no valid command. Write 'help' for futher information.")
-            basics.log("'" + icscommand + "' is no valid command. Write 'help' for futher information.", 0)
+            basics.display_message("'" + command + "' is no valid command. Write 'help' for futher information.")
+            basics.log("'" + command + "' is no valid command. Write 'help' for futher information.", 0)
         
 
 # ----------------------------------------------------------
@@ -81,5 +87,5 @@ def startICSFinderConsole():
 # ----------------------------------------------------------
 if __name__ == "__main__":
     basics.log("Program started", 0)
-    basics.displayMessage("ICSFINDER v1.0 started")
+    basics.display_message("ICSFINDER v1.0 started")
     main()
