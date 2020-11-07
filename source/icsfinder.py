@@ -18,6 +18,7 @@ import basics
 import constants
 import database
 import util
+import shodanops
 
 
 # ----------------------------------------------------------
@@ -75,11 +76,35 @@ def start_interactive_console():
             exit()
         elif command == "help":
             util.print_help_message()
+        elif command.startswith("show"):
+            show_cmd(command)
         elif command == "":
             continue
         else:
-            basics.display_message("'" + command + "' is no valid command. Write 'help' for futher information.")
-            basics.log("'" + command + "' is no valid command. Write 'help' for futher information.", 0)
+            basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+            basics.log("'" + command + "' is no valid command. Write 'help' for further information.", 0)
+
+
+# ----------------------------------------------------------
+# START OF PROGRAM
+# ----------------------------------------------------------
+
+def show_cmd(command):
+    """
+    'show' commands will be handled here
+    """
+    # split command
+    command_splited = command.split(" ")
+
+    if len(command_splited) == 1:
+        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+        return
+
+    if command_splited[1] == "apikey":
+        print(shodanops.get_shodan_key())
+    else:
+        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+
         
 
 # ----------------------------------------------------------

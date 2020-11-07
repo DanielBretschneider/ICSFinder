@@ -50,3 +50,150 @@
 [INFO][06/11/2020 17:10:57]: User command was 'exit'
 [INFO][06/11/2020 17:10:57]: Exiting icsfinder
 [INFO][06/11/2020 17:10:57]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 21:57:41]: Program started
+[INFO][07/11/2020 21:57:41]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 21:57:41]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 21:57:41]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 21:57:41]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 21:57:41]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 21:57:41]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 21:57:47]: User command was 'exit'
+[INFO][07/11/2020 21:57:47]: Exiting icsfinder
+[INFO][07/11/2020 21:57:47]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 21:58:25]: Program started
+[INFO][07/11/2020 21:58:25]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 21:58:25]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 21:58:25]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 21:58:25]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 21:58:25]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 21:58:25]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 21:58:30]: User command was 'show api key'
+[INFO][07/11/2020 21:58:36]: User command was 'exit'
+[INFO][07/11/2020 21:58:36]: Exiting icsfinder
+[INFO][07/11/2020 21:58:36]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:00:07]: Program started
+[INFO][07/11/2020 22:00:07]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:00:07]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:00:07]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:00:07]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:00:07]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:00:07]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:00:10]: User command was 'show api key'
+[INFO][07/11/2020 22:00:12]: User command was ''
+[INFO][07/11/2020 22:00:13]: User command was ''
+[INFO][07/11/2020 22:00:14]: User command was 'exit'
+[INFO][07/11/2020 22:00:14]: Exiting icsfinder
+[INFO][07/11/2020 22:00:14]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:07:54]: Program started
+[INFO][07/11/2020 22:07:54]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:07:54]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:07:54]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:07:54]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:07:54]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:07:54]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:07:58]: User command was 'show apikey'
+[INFO][07/11/2020 22:07:59]: User command was ''
+[INFO][07/11/2020 22:07:59]: User command was ''
+[INFO][07/11/2020 22:11:46]: User command was 'exit'
+[INFO][07/11/2020 22:11:46]: Exiting icsfinder
+[INFO][07/11/2020 22:11:46]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:11:56]: Program started
+[INFO][07/11/2020 22:11:56]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:11:56]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:11:56]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:11:56]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:11:56]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:11:56]: [basics.displayWarning()] -> ("No database file found in 'db' folder, so file was created at:  /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:11:56]: database file was create: /home/db/dev/ICSFinder/db/icsfinder.db
+[INFO][07/11/2020 22:11:57]: table devices has been created in database
+[INFO][07/11/2020 22:11:57]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:12:06]: User command was 'exit'
+[INFO][07/11/2020 22:12:06]: Exiting icsfinder
+[INFO][07/11/2020 22:12:06]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:12:48]: Program started
+[INFO][07/11/2020 22:12:48]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:12:48]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:12:48]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:12:48]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:12:48]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:12:48]: [basics.displayWarning()] -> ("No database file found in 'db' folder, so file was created at:  /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:12:48]: database file was create: /home/db/dev/ICSFinder/db/icsfinder.db
+[INFO][07/11/2020 22:12:48]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:12:48]: table devices has been created in database
+[INFO][07/11/2020 22:12:48]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:13:24]: User command was 'show'
+[INFO][07/11/2020 22:15:00]: Program started
+[INFO][07/11/2020 22:15:00]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:15:00]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:15:00]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:15:00]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:15:00]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:15:00]: [basics.displayWarning()] -> ("No database file found in 'db' folder, so file was created at:  /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:15:00]: database file was create: /home/db/dev/ICSFinder/db/icsfinder.db
+[INFO][07/11/2020 22:15:00]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:15:00]: table devices has been created in database
+[INFO][07/11/2020 22:15:00]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:15:02]: User command was 'show'
+[INFO][07/11/2020 22:15:02]: [basics.displayMessage()] -> ("'show' is no valid command. Write 'help' for futher information.")
+[INFO][07/11/2020 22:15:13]: Program started
+[INFO][07/11/2020 22:15:13]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:15:13]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:15:13]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:15:13]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:15:13]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:15:13]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:15:13]: table devices has been created in database
+[INFO][07/11/2020 22:15:13]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:15:15]: User command was 'show'
+[INFO][07/11/2020 22:15:15]: [basics.displayMessage()] -> ("'show' is no valid command. Write 'help' for futher information.")
+[INFO][07/11/2020 22:15:50]: User command was 'exit'
+[INFO][07/11/2020 22:15:50]: Exiting icsfinder
+[INFO][07/11/2020 22:15:55]: Program started
+[INFO][07/11/2020 22:15:55]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:15:55]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:15:55]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:15:55]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:15:55]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:15:55]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:15:55]: table devices has been created in database
+[INFO][07/11/2020 22:15:55]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:15:59]: User command was 'show bhb'
+[INFO][07/11/2020 22:15:59]: [basics.displayMessage()] -> ("show 'show bhb' is no valid command. Write 'help' for futher information.")
+[INFO][07/11/2020 22:16:17]: User command was '[a[bex'
+[INFO][07/11/2020 22:16:17]: [basics.displayMessage()] -> ("'[a[bex' is no valid command. Write 'help' for futher information.")
+[INFO][07/11/2020 22:16:17]: '[a[bex' is no valid command. Write 'help' for futher information.
+[INFO][07/11/2020 22:16:17]: User command was ''
+[INFO][07/11/2020 22:16:17]: User command was ''
+[INFO][07/11/2020 22:16:18]: User command was 'exit'
+[INFO][07/11/2020 22:16:18]: Exiting icsfinder
+[INFO][07/11/2020 22:16:18]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:16:20]: Program started
+[INFO][07/11/2020 22:16:20]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:16:20]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:16:20]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:16:20]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:16:20]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:16:20]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:16:20]: table devices has been created in database
+[INFO][07/11/2020 22:16:20]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:16:21]: User command was 'show sd'
+[INFO][07/11/2020 22:16:21]: [basics.displayMessage()] -> ("'show sd' is no valid command. Write 'help' for futher information.")
+[INFO][07/11/2020 22:16:54]: User command was 'exit'
+[INFO][07/11/2020 22:16:54]: Exiting icsfinder
+[INFO][07/11/2020 22:16:54]: [basics.displayMessage()] -> ("Exiting icsfinder")
+[INFO][07/11/2020 22:16:57]: Program started
+[INFO][07/11/2020 22:16:57]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][07/11/2020 22:16:57]: [basics.displayMessage()] -> ("Checking if host is connected to the internet")
+[INFO][07/11/2020 22:16:57]: Attemting to ping 'http://www.google.com/'
+[INFO][07/11/2020 22:16:57]: Successfully pinged 'http://www.google.com/'
+[INFO][07/11/2020 22:16:57]: [basics.displayMessage()] -> ("Host is online")
+[INFO][07/11/2020 22:16:57]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][07/11/2020 22:16:57]: table devices has been created in database
+[INFO][07/11/2020 22:16:57]: [basics.displayMessage()] -> ("Start gathering ICS information")
+[INFO][07/11/2020 22:17:04]: User command was 'show apkey'
+[INFO][07/11/2020 22:17:04]: [basics.displayMessage()] -> ("'show apkey' is no valid command. Write 'help' for further information.")
+[INFO][07/11/2020 22:17:09]: User command was 'show apikey'
+[INFO][07/11/2020 22:17:10]: User command was ''
+[INFO][07/11/2020 22:17:11]: User command was 'exit'
+[INFO][07/11/2020 22:17:11]: Exiting icsfinder
+[INFO][07/11/2020 22:17:11]: [basics.displayMessage()] -> ("Exiting icsfinder")

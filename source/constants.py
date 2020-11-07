@@ -29,6 +29,11 @@ DATABASE_FILE = "icsfinder.db"
 DATABASE_PATH = "/home/db/dev/ICSFinder/db/"
 
 #
+# SHODAN API KEY
+#
+SHODAN_API_KEY_FILE = "/home/db/dev/shodankey/key.txt"
+
+#
 # Create table statement
 #
 SQL_STATEMENT_INITIAL_DEVICES_TABLE = """
