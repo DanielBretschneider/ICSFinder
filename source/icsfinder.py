@@ -53,9 +53,6 @@ def startup_checks():
     # create database if not already existing
     database_connection = database.create_database_connection()
 
-    # create tables if necessary
-    database.create_database_table(database_connection, constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE)
-
     # TODO add checks for shodan api key etc.
     basics.display_message("Start gathering ICS information")
 
@@ -72,12 +69,13 @@ def start_interactive_console():
         # switch 
         if command == "exit":
             basics.log("Exiting icsfinder", 0)
-            basics.display_message("Exiting icsfinder")
             exit()
         elif command == "help":
             util.print_help_message()
         elif command.startswith("show"):
             show_cmd(command)
+        elif command.startswith("search"):
+            search_cmd(command)
         elif command == "":
             continue
         else:
@@ -86,26 +84,43 @@ def start_interactive_console():
 
 
 # ----------------------------------------------------------
-# START OF PROGRAM
+# ICS COMMAND HANDLING
 # ----------------------------------------------------------
+def get_splitted_command(command):
+    # split cmd
+    splitted_command = command.split(" ")
+
+    # check if command has more arguments
+    if len(splitted_command) == 1:
+        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+        start_interactive_console()
+    else:
+        return splitted_command
+
 
 def show_cmd(command):
     """
     'show' commands will be handled here
     """
     # split command
-    command_splited = command.split(" ")
+    split_command = get_splitted_command(command)
 
-    if len(command_splited) == 1:
-        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
-        return
-
-    if command_splited[1] == "apikey":
+    if split_command[1] == "apikey":
         print(shodanops.get_shodan_key())
+    elif split_command[1] == "myip":
+        shodanops.get_external_ip()
+    elif split_command[1] == "info":
+        shodanops.get_shodan_info()
     else:
         basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
 
-        
+
+def search_cmd(command):
+    """
+    'search' commands will be handled here
+    """
+    shodanops.shodan_search(command)
+
 
 # ----------------------------------------------------------
 # START OF PROGRAM

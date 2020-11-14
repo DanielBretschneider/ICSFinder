@@ -10,6 +10,9 @@
 # IMPORTS
 # ----------------------------------------------------------
 import constants
+import os
+import basics
+import shodan
 
 
 # ----------------------------------------------------------
@@ -24,7 +27,69 @@ def get_shodan_key():
     api_key = ""
 
     with open(constants.SHODAN_API_KEY_FILE, "r") as api_key_file:
-        api_key = api_key_file.read()
+        api_key = api_key_file.read().replace("\n", "")
 
     return api_key
 
+
+def get_api_connection():
+    # get key from key file
+    api = shodan.Shodan(get_shodan_key())
+
+    # return connection
+    return api
+
+
+def get_external_ip():
+    """
+    Print external ip of host
+    """
+    # output external ip
+    exit_code = os.system('shodan myip')
+
+    # if exit_code != then shodan isn't installed
+    if exit_code != 0:
+        basics.display_message("This command only works if shodan is installed on host!")
+
+
+def get_shodan_info():
+    """
+    Returns information about the current API key, such as a list of add-ons and other
+    features that are enabled for the current user’s API plan.
+    """
+    # output external ip
+    exit_code = os.system('shodan info')
+
+    # if exit_code != then shodan isn't installed
+    if exit_code != 0:
+        basics.display_message("This command only works if shodan is installed on host!")
+
+
+def shodan_search(command):
+    """
+    Shodan search request
+    Prints IP + data
+    """
+    try:
+        # Search Shodan
+        results = get_api_connection().search(command)
+
+        # Show the results
+        print('Results found: {}'.format(results['total']))
+        for result in results['matches']:
+            print('IP: {}'.format(result['ip_str']))
+            print(result['data'])
+            print('')
+    except shodan.APIError as e:
+        basics.display_warning("There was an error with your query.")
+        basics.log(e.value, 2)
+
+
+def shodan_internal_search(command):
+    """
+    BA spezifisch: Wird über cmd Argumente angesteuert
+    Speichert Daten in Datenbank
+        - IP
+        - keyword
+        - ICMP Erreichbarkeit
+    """

@@ -37,12 +37,22 @@ def create_database_connection():
                                constants.DATABASE_PATH + constants.DATABASE_FILE)
         basics.log("database file was create: " + constants.DATABASE_PATH + constants.DATABASE_FILE, 0)
 
-    # create connection
-    try:
-        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        return connection
-    except Exception as e:
-        basics.log("Error while connecting to database! \n" + str(e), 0)
+        # create connection
+        try:
+            connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+            return connection
+        except Exception as e:
+            basics.log("Error while connecting to database! \n" + str(e), 0)
+
+        create_database_table(connection, constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE)
+
+    else:
+        # create connection
+        try:
+            connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+            return connection
+        except Exception as e:
+            basics.log("Error while connecting to database! \n" + str(e), 0)
 
     # return connection anyways
     return connection

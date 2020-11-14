@@ -70,11 +70,22 @@ def print_help_message():
     """
     # print Message
     print("\nICSFinder Command Overview" + "\n")
-    print_help_command("help", "Show help message")
-    print_help_command("show ip", "Show your external IP address")
-    print_help_command("exit", "Exit ICSFinder\n")
+    print_help_subtitle("General commands")
+    print_help_command("help\t", "Show help message")
+    print_help_command("exit\t", "Exit ICSFinder")
+    print_help_subtitle("\nshow commands")
+    print_help_command("show apikey", "Show Shodan API key")
+    print_help_command("show myip", "Show your external IP address")
+    print_help_command("show info", "Returns information about current user’s API plan")
+    print_help_subtitle("\nsearch command")
+    print_help_command("search\t", "Search commands works exactly as in Shodan CLI")
+    print_help_subtitle("\ndatabase commands")
+    print_help_command("db count", "Get current number of devices found")
 
-    # log acitity
+    # newline after help message
+    print("")
+
+    # log activity
     basics.log("Printed help message", 0)
 
 
@@ -82,7 +93,14 @@ def print_help_command(command, description):
     """
     Print coloured and formatted command and description
     """
-    print('\33[33m' + command + '\033[0m' + "\t - " + description)
+    print('\33[33m' + command + '\033[0m' + "\t" + description)
+
+
+def print_help_subtitle(command):
+    """
+    Print coloured and formatted command and description
+    """
+    print('\033[1;34m' + command + '\033[0m')
 
 
 # ----------------------------------------------------------
