@@ -53,9 +53,6 @@ def startup_checks():
     # create database if not already existing
     database_connection = database.create_database_connection()
 
-    # TODO add checks for shodan api key etc.
-    basics.display_message("Start gathering ICS information")
-
 
 def start_interactive_console():
     """
@@ -75,11 +72,15 @@ def start_interactive_console():
         elif command.startswith("show"):
             show_cmd(command)
         elif command.startswith("search"):
-            search_cmd(command)
+            shodan_search_command(command)
+        elif command.startswith("host"):
+            shodan_host_command(command)
+        elif command == "clear":
+            shodanops.systemcmd("clear")
         elif command == "":
             continue
         else:
-            basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+            basics.display_warning("'" + command + "' is no valid command. Write 'help' for further information.")
             basics.log("'" + command + "' is no valid command. Write 'help' for further information.", 0)
 
 
@@ -112,14 +113,21 @@ def show_cmd(command):
     elif split_command[1] == "info":
         shodanops.get_shodan_info()
     else:
-        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
+        basics.display_warning("'" + command + "' is no valid command. Write 'help' for further information.")
 
 
-def search_cmd(command):
+def shodan_search_command(command):
     """
     'search' commands will be handled here
     """
     shodanops.shodan_search(command)
+
+
+def shodan_host_command(command):
+    """
+    'host' commands will be handled here
+    """
+    shodanops.shodan_host(command)
 
 
 # ----------------------------------------------------------

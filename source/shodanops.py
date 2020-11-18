@@ -85,6 +85,42 @@ def shodan_search(command):
         basics.log(e.value, 2)
 
 
+def shodan_host(command):
+    """
+    Get information on a specific IP
+    """
+    # extract ip
+    ip_address = command.split(" ")[1]
+
+    try:
+        # Lookup the host
+        host = get_api_connection().host(ip_address)
+
+        # Print general info
+        print("""
+                IP: {}
+                Organization: {}
+                Operating System: {}
+        """.format(host['ip_str'], host.get('org', 'n/a'), host.get('os', 'n/a')))
+
+        # Print all banners
+        for item in host['data']:
+            print("""
+                        Port: {}
+                        Banner: {}
+    
+                """.format(item['port'], item['data']))
+    except shodan.APIError as e:
+        basics.display_warning("No information available for that IP.")
+
+
+def systemcmd(cmd):
+    """
+    Run system command
+    """
+    os.system(cmd)
+
+
 def shodan_internal_search(command):
     """
     BA spezifisch: Wird über cmd Argumente angesteuert

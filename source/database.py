@@ -39,7 +39,12 @@ def create_database_connection():
 
         # create connection
         try:
+            # connection to db
             connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+            basics.display_warning("Database created at '" + constants.DATABASE_PATH + constants.DATABASE_FILE + "'")
+            basics.log("Database created at '" + constants.DATABASE_PATH + constants.DATABASE_FILE + "'", 0)
+
+            # return db connection
             return connection
         except Exception as e:
             basics.log("Error while connecting to database! \n" + str(e), 0)
@@ -49,7 +54,11 @@ def create_database_connection():
     else:
         # create connection
         try:
+            # connect to db
             connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+            basics.display_message("Connection to database established")
+            basics.log("Database connection established. path: '" + constants.DATABASE_PATH + constants.DATABASE_FILE + "'", 0)
+
             return connection
         except Exception as e:
             basics.log("Error while connecting to database! \n" + str(e), 0)
@@ -66,6 +75,7 @@ def create_database_table(db_connection, create_table_sql_statement):
     :return:
     """
     try:
+        # execute table creation statement
         cursor = db_connection.cursor()
         cursor.execute(create_table_sql_statement)
         db_connection.commit()
@@ -73,7 +83,8 @@ def create_database_table(db_connection, create_table_sql_statement):
         # log table creation
         basics.display_warning("Table 'devices' was created inside " + constants.DATABASE_PATH +
                                constants.DATABASE_FILE)
-        basics.log("table devices has been created in database", 0)
+        basics.log("table devices has been created in database using following statement: \n", 0)
+        basics.log(str(constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE), 0)
     except Exception as e:
         basics.log("Error while executing sql-statement \n" + create_table_sql_statement + "\nError:\n" + str(e), 0)
 

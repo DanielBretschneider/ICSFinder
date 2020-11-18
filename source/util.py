@@ -31,7 +31,6 @@ def check_internet_connectivity():
     timeout = 5
      
     # logging info
-    basics.display_message("Checking if host is connected to the internet")
     basics.log("Attemting to ping '" + url + "'", 0)
 
     # now try to access url
@@ -70,16 +69,19 @@ def print_help_message():
     """
     # print Message
     print("\nICSFinder Command Overview" + "\n")
-    print_help_subtitle("General commands")
+    print_help_subtitle("General Commands")
     print_help_command("help\t", "Show help message")
+    print_help_command("clear\t", "Clear Screen")
     print_help_command("exit\t", "Exit ICSFinder")
-    print_help_subtitle("\nshow commands")
+    print_help_subtitle("\nShow Commands")
     print_help_command("show apikey", "Show Shodan API key")
     print_help_command("show myip", "Show your external IP address")
     print_help_command("show info", "Returns information about current user’s API plan")
-    print_help_subtitle("\nsearch command")
+    print_help_subtitle("\nExplore Shodan API")
     print_help_command("search\t", "Search commands works exactly as in Shodan CLI")
-    print_help_subtitle("\ndatabase commands")
+    print_help_command("scan\t", "Scan ip addresses or networks")
+    print_help_command("host\t", "Get Information about an specific host")
+    print_help_subtitle("\nDatabase Related Commands")
     print_help_command("db count", "Get current number of devices found")
 
     # newline after help message
