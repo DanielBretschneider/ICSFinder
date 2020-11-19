@@ -33,8 +33,7 @@ def create_database_connection():
         util.create_file(constants.DATABASE_PATH + constants.DATABASE_FILE)
 
         # log db file creation
-        basics.display_warning("No database file found in 'db' folder, so file was created at:  " +
-                               constants.DATABASE_PATH + constants.DATABASE_FILE)
+        basics.display_warning("No database file found in 'db' folder")
         basics.log("database file was create: " + constants.DATABASE_PATH + constants.DATABASE_FILE, 0)
 
         # create connection
@@ -44,12 +43,13 @@ def create_database_connection():
             basics.display_warning("Database created at '" + constants.DATABASE_PATH + constants.DATABASE_FILE + "'")
             basics.log("Database created at '" + constants.DATABASE_PATH + constants.DATABASE_FILE + "'", 0)
 
+            # create table 'devices'
+            create_database_table(connection, constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE)
+
             # return db connection
             return connection
         except Exception as e:
             basics.log("Error while connecting to database! \n" + str(e), 0)
-
-        create_database_table(connection, constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE)
 
     else:
         # create connection
@@ -87,5 +87,27 @@ def create_database_table(db_connection, create_table_sql_statement):
         basics.log(str(constants.SQL_STATEMENT_INITIAL_DEVICES_TABLE), 0)
     except Exception as e:
         basics.log("Error while executing sql-statement \n" + create_table_sql_statement + "\nError:\n" + str(e), 0)
+
+
+def insert(ip, keywords, accessible, last_successful_ping, creation_date, http_access):
+    """
+    INSERT into 'devices' table in database
+    """
+    # create insert statement
+    insert_statement = """INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('""" + ip + "', '" + keywords + "', " + accessible + ", '" + last_successful_ping +\
+                            "', '" + creation_date + "', " + http_access + ")"
+
+    try:
+        # execute insert statement
+        # connection to db
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        cursor = connection.cursor()
+        cursor.execute(insert_statement)
+        connection.commit()
+    except Exception as e:
+        basics.log("Error while executing sql-statement \n" + insert_statement + "\nError:\n" + str(e), 0)
+
 
 

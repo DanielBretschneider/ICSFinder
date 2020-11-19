@@ -38,10 +38,11 @@ SHODAN_API_KEY_FILE = "/home/db/dev/shodankey/key.txt"
 #
 SQL_STATEMENT_INITIAL_DEVICES_TABLE = """
                                 CREATE TABLE IF NOT EXISTS devices (
-                                    id integer PRIMARY KEY,
-                                    name text NOT NULL,
-                                    priority integer,
-                                    accessible integer NOT NULL,
-                                    project_id integer NOT NULL,
-                                    begin_date text NOT NULL
+                                    id INTEGER PRIMARY KEY,
+                                    ip_address TEXT NOT NULL,
+                                    keywords TEXT NOT NULL,
+                                    accessible INTEGER NOT NULL,
+                                    last_success_ping TEXT NOT NULL,
+                                    creation_date TEXT NOT NULL,
+                                    http_accessible INTEGER NOT NULL
                                 )"""

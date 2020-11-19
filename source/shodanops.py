@@ -10,6 +10,7 @@
 # IMPORTS
 # ----------------------------------------------------------
 import constants
+import database
 import os
 import basics
 import shodan
@@ -34,7 +35,7 @@ def get_shodan_key():
 
 def get_api_connection():
     # get key from key file
-    api = shodan.Shodan(get_shodan_key())
+    api = shodan.Shodan(str(get_shodan_key()))
 
     # return connection
     return api
@@ -45,7 +46,7 @@ def get_external_ip():
     Print external ip of host
     """
     # output external ip
-    exit_code = os.system('shodan myip')
+    exit_code = systemcmd('shodan myip')
 
     # if exit_code != then shodan isn't installed
     if exit_code != 0:
@@ -58,7 +59,7 @@ def get_shodan_info():
     features that are enabled for the current user’s API plan.
     """
     # output external ip
-    exit_code = os.system('shodan info')
+    exit_code = systemcmd('shodan info')
 
     # if exit_code != then shodan isn't installed
     if exit_code != 0:
@@ -72,14 +73,14 @@ def shodan_search(command):
     """
     try:
         # Search Shodan
-        results = get_api_connection().search(command)
+        api = shodan.Shodan(str(get_shodan_key()))
+        results = api.search(command + ' country:AT')
 
         # Show the results
         print('Results found: {}'.format(results['total']))
         for result in results['matches']:
-            print('IP: {}'.format(result['ip_str']))
-            print(result['data'])
-            print('')
+            print('IP: ' + result['ip_str'])
+            database.insert(str(result['ip_str']), command, str(0), "", "", str(0))
     except shodan.APIError as e:
         basics.display_warning("There was an error with your query.")
         basics.log(e.value, 2)
@@ -98,27 +99,33 @@ def shodan_host(command):
 
         # Print general info
         print("""
-                IP: {}
-                Organization: {}
-                Operating System: {}
-        """.format(host['ip_str'], host.get('org', 'n/a'), host.get('os', 'n/a')))
-
-        # Print all banners
-        for item in host['data']:
-            print("""
-                        Port: {}
-                        Banner: {}
-    
-                """.format(item['port'], item['data']))
+            IP: {}
+            Port: {}
+            Organization: {}
+            Operating System: {}
+        """.format(host['ip_str'], get_host_port(host), host.get('org', 'n/a'), host.get('os', 'n/a')))
     except shodan.APIError as e:
         basics.display_warning("No information available for that IP.")
+
+
+def get_host_port(host):
+    """
+    Extract ports from shodan data for host information
+    """
+    # Print all banners
+    for item in host['data']:
+        if item['port'] != "":
+            return item['port']
+
+    # dummy return if no port declared
+    return 'n/a'
 
 
 def systemcmd(cmd):
     """
     Run system command
     """
-    os.system(cmd)
+    return os.system(cmd)
 
 
 def shodan_internal_search(command):
