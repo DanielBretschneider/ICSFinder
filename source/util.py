@@ -54,7 +54,12 @@ def get_next_ics_command():
     command line interface for icsfinder
     """
     # read user input
-    command = input(constants.CONSOLE_PREFIX)
+    try:
+        command = input(constants.CONSOLE_PREFIX)
+    except KeyboardInterrupt as kie:
+        basics.log("shutdown", 0)
+        print("")
+        exit()
 
     # return given command without leading and trailing whitespace
     # and in lower case - for easier command proccessing
@@ -85,7 +90,7 @@ def print_help_message():
     print_help_subtitle("\nDatabase Related Commands")
     print_help_command("db count", "Get current number of devices found")
     print_help_subtitle("\nOther useful commands")
-    print_help_command("locate <ip>", "Returns location of given IP address")
+    print_help_command("locate <ip>", "Returns geolocation of given IP address")
 
     # newline after help message
     print("")

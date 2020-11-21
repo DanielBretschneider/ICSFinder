@@ -71,6 +71,8 @@ def shodan_search(command):
     Shodan search request
     Prints IP + data
     """
+    command = command[7:]
+
     try:
         # Search Shodan
         api = shodan.Shodan(str(get_shodan_key()))

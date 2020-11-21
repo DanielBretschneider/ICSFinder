@@ -16,7 +16,7 @@ PATH_LOGFILE = "/home/db/dev/ICSFinder/log/icsfinderlog.log"
 #
 # CONSOLE PREFIX
 #
-CONSOLE_PREFIX = "icscon > "
+CONSOLE_PREFIX = '\033[1;31m' + "icscon " + '\033[0m' + "> "
 
 #
 # DATBASE NAME
