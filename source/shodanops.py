@@ -101,10 +101,10 @@ def shodan_host(command):
 
         # Print general info
         print("""
-            IP: {}
-            Port: {}
-            Organization: {}
-            Operating System: {}
+IP: {}
+Port: {}
+Organization: {}
+Operating System: {}
         """.format(host['ip_str'], get_host_port(host), host.get('org', 'n/a'), host.get('os', 'n/a')))
     except shodan.APIError as e:
         basics.display_warning("No information available for that IP.")
