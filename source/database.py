@@ -11,6 +11,7 @@
 # IMPORTS
 # ----------------------------------------------------------
 import sqlite3
+import pandas
 import constants
 import basics
 import util
@@ -110,4 +111,28 @@ def insert(ip, keywords, accessible, last_successful_ping, creation_date, http_a
         basics.log("Error while executing sql-statement \n" + insert_statement + "\nError:\n" + str(e), 0)
 
 
+def print_found_devices():
+    """
+    Print already discovered devices as formatted table.
+    """
+    try:
+        # database connection
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        print(pandas.read_sql_query("SELECT id, ip_address, keywords FROM devices;", connection))
+    except Exception as e:
+        basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
 
+
+def count_found_devices():
+    """
+    Print total number of already discovered devices.
+    """
+    try:
+        # database connection
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        cursor = connection.cursor()
+        cursor.execute('SELECT COUNT(*) from devices')
+        cur_result = cursor.fetchone()
+        print("Total: " + str(cur_result[0]))
+    except Exception as e:
+        basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)

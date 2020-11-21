@@ -75,6 +75,8 @@ def start_interactive_console():
             shodan_search_command(command)
         elif command.startswith("host"):
             shodan_host_command(command)
+        elif command.startswith("db"):
+            database_operations(command)
         elif command == "clear":
             shodanops.systemcmd("clear")
         elif command == "":
@@ -112,6 +114,8 @@ def show_cmd(command):
         shodanops.get_external_ip()
     elif split_command[1] == "info":
         shodanops.get_shodan_info()
+    elif split_command[1] == "devices":
+        database.print_found_devices()
     else:
         basics.display_warning("'" + command + "' is no valid command. Write 'help' for further information.")
 
@@ -128,6 +132,17 @@ def shodan_host_command(command):
     'host' commands will be handled here
     """
     shodanops.shodan_host(command)
+
+
+def database_operations(command):
+    """
+    Database commands will be handled here
+    """
+    # split command
+    split_command = get_splitted_command(command)
+
+    if split_command[1] == "count":
+        database.count_found_devices()
 
 
 # ----------------------------------------------------------

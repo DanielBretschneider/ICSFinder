@@ -211,3 +211,251 @@
 [INFO][19/11/2020 21:22:28]: User command was 'search scada'
 [INFO][19/11/2020 21:25:28]: User command was 'exit'
 [INFO][19/11/2020 21:25:28]: Exiting icsfinder
+[INFO][21/11/2020 20:16:16]: Program started
+[INFO][21/11/2020 20:16:16]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:16:16]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:16:16]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:16:16]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:16:16]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:16:16]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:16:21]: User command was 'clear'
+[INFO][21/11/2020 20:16:23]: User command was 'help'
+[INFO][21/11/2020 20:16:23]: Printed help message
+[INFO][21/11/2020 20:16:28]: User command was 'exit'
+[INFO][21/11/2020 20:16:28]: Exiting icsfinder
+[INFO][21/11/2020 20:18:15]: Program started
+[INFO][21/11/2020 20:18:15]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:18:15]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:18:16]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:18:16]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:18:16]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:18:16]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:18:22]: User command was 'ext'
+[INFO][21/11/2020 20:18:22]: [basics.displayWarning()] -> ("'ext' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 20:18:22]: 'ext' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 20:18:24]: User command was 'exit'
+[INFO][21/11/2020 20:18:24]: Exiting icsfinder
+[INFO][21/11/2020 20:21:05]: Program started
+[INFO][21/11/2020 20:21:05]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:21:05]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:21:05]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:21:05]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:21:05]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:21:05]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:21:10]: User command was ''
+[INFO][21/11/2020 20:21:10]: User command was ''
+[INFO][21/11/2020 20:21:10]: User command was ''
+[INFO][21/11/2020 20:21:11]: User command was ''
+[INFO][21/11/2020 20:21:16]: User command was 'exit'
+[INFO][21/11/2020 20:21:16]: Exiting icsfinder
+[INFO][21/11/2020 20:22:08]: Program started
+[INFO][21/11/2020 20:22:08]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:22:08]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:22:08]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:22:08]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:22:08]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:22:08]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:22:18]: User command was 'exit'
+[INFO][21/11/2020 20:22:18]: Exiting icsfinder
+[INFO][21/11/2020 20:29:50]: Program started
+[INFO][21/11/2020 20:29:50]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:29:50]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:29:50]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:29:50]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:29:50]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:29:50]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:29:54]: User command was 'clear'
+[INFO][21/11/2020 20:29:56]: User command was 'help'
+[INFO][21/11/2020 20:29:56]: Printed help message
+[INFO][21/11/2020 20:29:59]: User command was 'show devices'
+[INFO][21/11/2020 20:30:52]: User command was 'exit'
+[INFO][21/11/2020 20:30:52]: Exiting icsfinder
+[INFO][21/11/2020 20:30:53]: Program started
+[INFO][21/11/2020 20:30:53]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:30:53]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:30:53]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:30:53]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:30:53]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:30:53]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:30:54]: User command was 'clear'
+[INFO][21/11/2020 20:30:57]: User command was 'clear'
+[INFO][21/11/2020 20:30:57]: User command was ''
+[INFO][21/11/2020 20:30:57]: User command was ''
+[INFO][21/11/2020 20:30:58]: User command was 'clear'
+[INFO][21/11/2020 20:31:02]: User command was 'help'
+[INFO][21/11/2020 20:31:02]: Printed help message
+[INFO][21/11/2020 20:31:10]: User command was 'show devices'
+[INFO][21/11/2020 20:31:52]: User command was 'search scada country:at'
+[INFO][21/11/2020 20:32:07]: User command was 'search webcam country:at'
+[INFO][21/11/2020 20:32:24]: User command was 'search nginx city:vienna'
+[INFO][21/11/2020 20:34:37]: User command was 'exit'
+[INFO][21/11/2020 20:34:37]: Exiting icsfinder
+[INFO][21/11/2020 20:42:36]: Program started
+[INFO][21/11/2020 20:42:36]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:42:36]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:42:36]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:42:36]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:42:36]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:42:36]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:42:37]: User command was 'clear'
+[INFO][21/11/2020 20:42:41]: User command was 'db count'
+[INFO][21/11/2020 20:42:41]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:42:43]: User command was ''
+[INFO][21/11/2020 20:42:43]: User command was ''
+[INFO][21/11/2020 20:42:43]: User command was ''
+[INFO][21/11/2020 20:42:46]: User command was 'db count'
+[INFO][21/11/2020 20:42:46]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:42:47]: User command was ''
+[INFO][21/11/2020 20:42:47]: User command was ''
+[INFO][21/11/2020 20:42:47]: User command was ''
+[INFO][21/11/2020 20:42:48]: User command was ''
+[INFO][21/11/2020 20:42:49]: User command was 'db count'
+[INFO][21/11/2020 20:42:49]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:44:47]: User command was 'exit'
+[INFO][21/11/2020 20:44:47]: Exiting icsfinder
+[INFO][21/11/2020 20:44:49]: Program started
+[INFO][21/11/2020 20:44:49]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:44:49]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:44:49]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:44:49]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:44:49]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:44:49]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:44:51]: User command was 'db count'
+[INFO][21/11/2020 20:44:51]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:45:08]: User command was 'exit'
+[INFO][21/11/2020 20:45:08]: Exiting icsfinder
+[INFO][21/11/2020 20:45:09]: Program started
+[INFO][21/11/2020 20:45:09]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:45:09]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:45:09]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:45:09]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:45:09]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:45:09]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:45:11]: User command was 'db count'
+[INFO][21/11/2020 20:45:11]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:46:23]: User command was 'exit'
+[INFO][21/11/2020 20:46:23]: Exiting icsfinder
+[INFO][21/11/2020 20:46:24]: Program started
+[INFO][21/11/2020 20:46:24]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:46:24]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:46:24]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:46:24]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:46:24]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:46:24]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:46:26]: User command was 'db count'
+[INFO][21/11/2020 20:46:26]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:46:31]: User command was 'exit'
+[INFO][21/11/2020 20:46:31]: Exiting icsfinder
+[INFO][21/11/2020 20:47:53]: Program started
+[INFO][21/11/2020 20:47:53]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:47:53]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:47:53]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:47:53]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:47:53]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:47:53]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:47:55]: User command was 'show devices'
+[INFO][21/11/2020 20:48:01]: User command was 'db count'
+[INFO][21/11/2020 20:48:01]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:49:03]: User command was 'exit'
+[INFO][21/11/2020 20:49:03]: Exiting icsfinder
+[INFO][21/11/2020 20:49:05]: Program started
+[INFO][21/11/2020 20:49:05]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:49:05]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:49:05]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:49:05]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:49:05]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:49:05]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:49:08]: User command was 'db count'
+[INFO][21/11/2020 20:49:08]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "tuple") to str
+[INFO][21/11/2020 20:49:09]: User command was 'exit'
+[INFO][21/11/2020 20:49:09]: Exiting icsfinder
+[INFO][21/11/2020 20:50:06]: Program started
+[INFO][21/11/2020 20:50:06]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:50:06]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:50:07]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:50:07]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:50:07]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:50:07]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:50:08]: User command was 'db count'
+[INFO][21/11/2020 20:50:08]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:50:11]: User command was 'exit'
+[INFO][21/11/2020 20:50:11]: Exiting icsfinder
+[INFO][21/11/2020 20:50:35]: Program started
+[INFO][21/11/2020 20:50:35]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:50:35]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:50:35]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:50:35]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:50:35]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:50:35]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:50:38]: User command was 'db count'
+[INFO][21/11/2020 20:50:38]: Error while trying to connect to database. 
+Error:
+can only concatenate str (not "int") to str
+[INFO][21/11/2020 20:50:40]: User command was 'exit'
+[INFO][21/11/2020 20:50:40]: Exiting icsfinder
+[INFO][21/11/2020 20:52:07]: Program started
+[INFO][21/11/2020 20:52:07]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:52:07]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:52:07]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:52:07]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:52:07]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:52:07]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:52:10]: User command was 'db count'
+[INFO][21/11/2020 20:52:32]: User command was 'exit'
+[INFO][21/11/2020 20:52:32]: Exiting icsfinder
+[INFO][21/11/2020 20:52:33]: Program started
+[INFO][21/11/2020 20:52:33]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:52:33]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:52:33]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:52:33]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:52:33]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:52:33]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:52:35]: User command was 'db count'
+[INFO][21/11/2020 20:52:45]: User command was 'exit'
+[INFO][21/11/2020 20:52:45]: Exiting icsfinder
+[INFO][21/11/2020 20:52:46]: Program started
+[INFO][21/11/2020 20:52:46]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:52:46]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:52:46]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:52:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:52:46]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:52:46]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:52:49]: User command was 'db count'
+[INFO][21/11/2020 20:54:40]: User command was 'exit'
+[INFO][21/11/2020 20:54:40]: Exiting icsfinder
+[INFO][21/11/2020 20:54:42]: Program started
+[INFO][21/11/2020 20:54:42]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:54:42]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:54:42]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:54:42]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:54:42]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:54:42]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:54:44]: User command was 'db count'
+[INFO][21/11/2020 20:55:11]: User command was 'exit'
+[INFO][21/11/2020 20:55:11]: Exiting icsfinder
+[INFO][21/11/2020 20:55:12]: Program started
+[INFO][21/11/2020 20:55:12]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 20:55:12]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 20:55:12]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 20:55:12]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 20:55:12]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 20:55:12]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 20:55:14]: User command was 'db count'

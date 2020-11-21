@@ -14,6 +14,7 @@
 import requests
 import basics
 import constants
+import readline
 import os
 
 
@@ -77,9 +78,9 @@ def print_help_message():
     print_help_command("show apikey", "Show Shodan API key")
     print_help_command("show myip", "Show your external IP address")
     print_help_command("show info", "Returns information about current user’s API plan")
+    print_help_command("show devices", "Print already discovered devices")
     print_help_subtitle("\nExplore Shodan API")
     print_help_command("search\t", "Search commands works exactly as in Shodan CLI")
-    print_help_command("scan\t", "Scan ip addresses or networks")
     print_help_command("host\t", "Get Information about an specific host")
     print_help_subtitle("\nDatabase Related Commands")
     print_help_command("db count", "Get current number of devices found")
