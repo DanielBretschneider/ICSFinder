@@ -667,3 +667,85 @@ can only concatenate str (not "int") to str
 [INFO][21/11/2020 22:22:16]: User command was ''
 [INFO][21/11/2020 22:22:17]: User command was ''
 [INFO][21/11/2020 22:22:18]: shutdown
+[INFO][21/11/2020 22:25:42]: Program started
+[INFO][21/11/2020 22:25:42]: [basics.displayMessage()] -> ("ICSFINDER v1.0 started")
+[INFO][21/11/2020 22:25:42]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:25:42]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:25:42]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:25:42]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:25:42]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:25:44]: User command was 'clear'
+[INFO][21/11/2020 22:25:45]: User command was ''
+[INFO][21/11/2020 22:25:46]: User command was ''
+[INFO][21/11/2020 22:25:47]: User command was 'help'
+[INFO][21/11/2020 22:25:47]: Printed help message
+[INFO][21/11/2020 22:25:58]: User command was 'exit'
+[INFO][21/11/2020 22:25:58]: Exiting icsfinder
+[INFO][21/11/2020 22:26:46]: Program started
+[INFO][21/11/2020 22:26:46]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][21/11/2020 22:26:46]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:26:46]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:26:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:26:46]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:26:46]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:36:31]: User command was ''
+[INFO][21/11/2020 22:36:31]: User command was ''
+[INFO][21/11/2020 22:36:31]: User command was ''
+[INFO][21/11/2020 22:36:32]: User command was 'ls'
+[INFO][21/11/2020 22:36:32]: [basics.displayWarning()] -> ("'ls' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:36:32]: 'ls' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:36:42]: User command was 'help'
+[INFO][21/11/2020 22:36:42]: Printed help message
+[INFO][21/11/2020 22:36:44]: User command was ''
+[INFO][21/11/2020 22:36:45]: User command was ''
+[INFO][21/11/2020 22:43:04]: User command was 'exit'
+[INFO][21/11/2020 22:43:04]: Exiting icsfinder
+[INFO][21/11/2020 22:43:05]: Program started
+[INFO][21/11/2020 22:43:05]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][21/11/2020 22:43:05]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:43:05]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:43:05]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:43:05]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:43:05]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:43:06]: User command was 'xc'
+[INFO][21/11/2020 22:43:06]: [basics.displayWarning()] -> ("'xc' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:43:06]: 'xc' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:43:20]: User command was 'exit'
+[INFO][21/11/2020 22:43:20]: Exiting icsfinder
+[INFO][21/11/2020 22:43:21]: Program started
+[INFO][21/11/2020 22:43:21]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][21/11/2020 22:43:21]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:43:21]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:43:21]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:43:21]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:43:21]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:43:22]: User command was ''
+[INFO][21/11/2020 22:43:22]: User command was ''
+[INFO][21/11/2020 22:43:22]: User command was 's'
+[INFO][21/11/2020 22:43:22]: [basics.displayMessage()] -> ("'s' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:43:22]: 's' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:43:23]: User command was ''
+[INFO][21/11/2020 22:43:23]: User command was ''
+[INFO][21/11/2020 22:43:24]: User command was 'sdsds'
+[INFO][21/11/2020 22:43:24]: [basics.displayMessage()] -> ("'sdsds' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:43:24]: 'sdsds' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:45:23]: User command was 'clear'
+[INFO][21/11/2020 22:45:26]: User command was 'help'
+[INFO][21/11/2020 22:45:26]: Printed help message
+[INFO][21/11/2020 22:45:39]: User command was 'sdsds'
+[INFO][21/11/2020 22:45:39]: [basics.displayMessage()] -> ("'sdsds' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:45:39]: 'sdsds' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:45:46]: User command was 'show devices'
+[INFO][21/11/2020 22:45:48]: User command was ''
+[INFO][21/11/2020 22:46:03]: User command was 'db coun'
+[INFO][21/11/2020 22:46:05]: User command was 'db count'
+[INFO][21/11/2020 22:46:59]: User command was 'exit'
+[INFO][21/11/2020 22:46:59]: Exiting icsfinder
+[INFO][21/11/2020 22:47:01]: Program started
+[INFO][21/11/2020 22:47:01]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][21/11/2020 22:47:01]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:47:01]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:47:01]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:47:01]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:47:01]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:47:05]: User command was 'show devices'

@@ -118,7 +118,7 @@ def print_found_devices():
     try:
         # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        print(pandas.read_sql_query("SELECT id, ip_address, keywords FROM devices;", connection))
+        print(pandas.read_sql_query("SELECT ip_address, keywords FROM devices;", connection))
     except Exception as e:
         basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
 

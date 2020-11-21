@@ -8,7 +8,7 @@
 # ----------------------------------------------------------
 __author__  = "Daniel Bretschneider"
 __file__    = "icsfinder.py"
-__version__ = "1.0"
+__version__ = "1.3"
 __created__ = "28.10.2020"
 
 # ----------------------------------------------------------
@@ -84,7 +84,7 @@ def start_interactive_console():
         elif command == "":
             continue
         else:
-            basics.display_warning("'" + command + "' is no valid command. Write 'help' for further information.")
+            basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
             basics.log("'" + command + "' is no valid command. Write 'help' for further information.", 0)
 
 
@@ -119,7 +119,7 @@ def show_cmd(command):
     elif split_command[1] == "devices":
         database.print_found_devices()
     else:
-        basics.display_warning("'" + command + "' is no valid command. Write 'help' for further information.")
+        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
 
 
 def shodan_search_command(command):
@@ -152,5 +152,5 @@ def database_operations(command):
 # ----------------------------------------------------------
 if __name__ == "__main__":
     basics.log("Program started", 0)
-    basics.display_message("ICSFINDER v1.0 started")
+    basics.display_message("ICSFINDER v1.3 started")
     main()
