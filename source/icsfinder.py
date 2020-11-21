@@ -79,6 +79,8 @@ def start_interactive_console():
             database_operations(command)
         elif command == "clear":
             shodanops.systemcmd("clear")
+        elif command.startswith("locate"):
+            shodanops.locate_ip(command)
         elif command == "":
             continue
         else:

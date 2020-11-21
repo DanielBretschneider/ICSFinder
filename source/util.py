@@ -84,6 +84,8 @@ def print_help_message():
     print_help_command("host\t", "Get Information about an specific host")
     print_help_subtitle("\nDatabase Related Commands")
     print_help_command("db count", "Get current number of devices found")
+    print_help_subtitle("\nOther useful commands")
+    print_help_command("locate <ip>", "Returns location of given IP address")
 
     # newline after help message
     print("")

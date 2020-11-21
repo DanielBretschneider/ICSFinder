@@ -128,6 +128,14 @@ def systemcmd(cmd):
     return os.system(cmd)
 
 
+def locate_ip(command):
+    """
+    Returns geolocation of ip address
+    """
+    print("")
+    systemcmd("curl https://api.hackertarget.com/geoip/?q=" + command.split(" ")[1])
+    print("\n")
+
 def shodan_internal_search(command):
     """
     BA spezifisch: Wird über cmd Argumente angesteuert

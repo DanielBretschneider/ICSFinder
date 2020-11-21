@@ -2,3 +2,5 @@ python3
 request package
 sqlite3 support
 termcolors
+pandas
+readline
