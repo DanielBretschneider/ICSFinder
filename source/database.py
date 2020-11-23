@@ -11,7 +11,6 @@
 # IMPORTS
 # ----------------------------------------------------------
 import sqlite3
-import pandas
 import constants
 import basics
 import util

@@ -15,6 +15,7 @@ import requests
 import basics
 import constants
 import readline
+import eventlet
 import os
 
 
@@ -168,7 +169,8 @@ def check_http(ip):
     """
     try:
         # try reaching IP via http
-        response_code = requests.head("http://" + ip)
+        response = requests.Session()
+        response_code = response.get("http://" + ip, timeout=(3, 5))
 
         # check response code
         if response_code.ok:
@@ -176,5 +178,5 @@ def check_http(ip):
         else:
             return False
     except requests.ConnectionError:
-        print("failed to connect")
+        return False
 

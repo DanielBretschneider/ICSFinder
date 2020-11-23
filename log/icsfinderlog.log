@@ -1514,3 +1514,218 @@ no such column: None
 [INFO][23/11/2020 19:31:32]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
 [INFO][23/11/2020 19:31:36]: User command was 'host 217.175.200.11'
 [INFO][23/11/2020 19:31:42]: User command was 'search scada'
+[INFO][23/11/2020 19:53:20]: User command was 'exit'
+[INFO][23/11/2020 19:53:20]: Exiting icsfinder
+[INFO][23/11/2020 19:59:46]: Program started
+[INFO][23/11/2020 19:59:46]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:59:46]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:59:46]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:59:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:59:46]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:59:46]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:59:47]: User command was ''
+[INFO][23/11/2020 19:59:47]: User command was ''
+[INFO][23/11/2020 19:59:50]: User command was 'show devices'
+[INFO][23/11/2020 19:59:55]: User command was 'show devices scada'
+[INFO][23/11/2020 20:00:06]: User command was 'show devices siemens'
+[INFO][23/11/2020 20:00:22]: User command was 'locate 93.83.100.42'
+[INFO][23/11/2020 20:01:00]: User command was 'host 93.83.100.42'
+[INFO][23/11/2020 20:08:09]: Program started
+[INFO][23/11/2020 20:08:09]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:08:09]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:08:09]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:08:09]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:08:09]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:08:09]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:08:19]: User command was 'show device 232'
+[INFO][23/11/2020 20:08:25]: User command was 'host 154.201.193.5'
+[INFO][23/11/2020 20:08:37]: User command was 'show devices'
+[INFO][23/11/2020 20:08:45]: User command was 'host 217.175.200.11'
+[INFO][23/11/2020 20:08:48]: User command was 'show devices'
+[INFO][23/11/2020 20:08:53]: User command was 'host 87.243.174.189'
+[INFO][23/11/2020 20:09:11]: User command was 'search webcam'
+[INFO][23/11/2020 20:09:20]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.80.217.188', 'webcam country:AT', False, '23/11/2020 20:09:11', '23/11/2020 20:09:11', None)
+Error:
+no such column: None
+[INFO][23/11/2020 20:09:57]: Program started
+[INFO][23/11/2020 20:09:57]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:09:57]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:09:57]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:09:57]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:09:57]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:09:57]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:10:02]: User command was 'search webcam'
+[INFO][23/11/2020 20:12:03]: Program started
+[INFO][23/11/2020 20:12:03]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:12:03]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:12:03]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:12:03]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:12:03]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:12:03]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:12:06]: User command was 'search webcamxp'
+[INFO][23/11/2020 20:12:47]: Program started
+[INFO][23/11/2020 20:12:47]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:12:47]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:12:47]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:12:47]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:12:47]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:12:47]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:12:50]: User command was 'search scada'
+[INFO][23/11/2020 20:13:03]: User command was 'search canon'
+[INFO][23/11/2020 20:14:28]: Program started
+[INFO][23/11/2020 20:14:28]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:14:28]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:14:28]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:14:28]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:14:28]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:14:28]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:14:32]: User command was 'search webcam'
+[INFO][23/11/2020 20:17:45]: Program started
+[INFO][23/11/2020 20:17:45]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:17:45]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:17:45]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:17:45]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:17:45]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:17:45]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:17:48]: User command was 'search webcam'
+[INFO][23/11/2020 20:20:20]: Program started
+[INFO][23/11/2020 20:20:20]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:20:20]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:20:21]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:20:21]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:20:21]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:20:21]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:20:23]: User command was 'search webcam'
+[INFO][23/11/2020 20:21:01]: Program started
+[INFO][23/11/2020 20:21:01]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:21:01]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:21:01]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:21:01]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:21:01]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:21:01]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:21:04]: User command was 'search webcam'
+[INFO][23/11/2020 20:22:35]: Program started
+[INFO][23/11/2020 20:22:35]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:22:35]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:22:35]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:22:35]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:22:35]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:22:35]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:22:38]: User command was 'search webcam'
+[INFO][23/11/2020 20:23:34]: Program started
+[INFO][23/11/2020 20:23:34]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:23:34]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:23:34]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:23:34]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:23:34]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:23:34]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:23:36]: User command was 'webcam'
+[INFO][23/11/2020 20:23:36]: [basics.displayMessage()] -> ("'webcam' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 20:23:36]: 'webcam' is no valid command. Write 'help' for further information.
+[INFO][23/11/2020 20:23:39]: User command was 'search webcam'
+[INFO][23/11/2020 20:24:27]: Program started
+[INFO][23/11/2020 20:24:27]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:24:27]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:24:28]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:24:28]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:24:28]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:24:28]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:24:30]: User command was 'search webcam'
+[INFO][23/11/2020 20:33:24]: Program started
+[INFO][23/11/2020 20:33:24]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:33:24]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:33:24]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:33:24]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:33:24]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:33:24]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:33:25]: User command was 'clear'
+[INFO][23/11/2020 20:33:28]: User command was 'search webcam'
+[INFO][23/11/2020 20:37:33]: Program started
+[INFO][23/11/2020 20:37:33]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:37:33]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:37:34]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:37:34]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:37:34]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:37:34]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:37:40]: User command was 'search webcam'
+[INFO][23/11/2020 20:38:05]: Program started
+[INFO][23/11/2020 20:38:05]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:38:05]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:38:05]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:38:05]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:38:05]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:38:05]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:38:07]: User command was 'search webcam'
+[INFO][23/11/2020 20:38:51]: Program started
+[INFO][23/11/2020 20:38:51]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:38:51]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:38:51]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:38:51]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:38:51]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:38:51]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:38:56]: User command was 'search webcma'
+[INFO][23/11/2020 20:38:58]: Program started
+[INFO][23/11/2020 20:38:58]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:38:58]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:38:58]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:38:58]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:38:58]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:38:58]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:39:01]: User command was 'search webcam'
+[INFO][23/11/2020 20:39:40]: Program started
+[INFO][23/11/2020 20:39:40]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:39:40]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:39:40]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:39:40]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:39:40]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:39:40]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:39:44]: User command was 'search webcam'
+[INFO][23/11/2020 20:40:50]: Program started
+[INFO][23/11/2020 20:40:50]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:40:50]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:40:50]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:40:50]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:40:50]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:40:50]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:40:57]: User command was 'search webcam'
+[INFO][23/11/2020 20:42:27]: Program started
+[INFO][23/11/2020 20:42:27]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:42:27]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:42:27]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:42:27]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:42:27]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:42:27]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:42:30]: User command was 'search webcam'
+[INFO][23/11/2020 20:43:41]: Program started
+[INFO][23/11/2020 20:43:41]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:43:41]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:43:41]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:43:41]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:43:41]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:43:41]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:43:44]: User command was 'search scada'
+[INFO][23/11/2020 20:44:09]: User command was 'exit'
+[INFO][23/11/2020 20:44:09]: Exiting icsfinder
+[INFO][23/11/2020 20:44:10]: Program started
+[INFO][23/11/2020 20:44:10]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:44:10]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:44:11]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:44:11]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:44:11]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:44:11]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:44:16]: User command was 'search apache'
+[INFO][23/11/2020 20:44:36]: Program started
+[INFO][23/11/2020 20:44:36]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:44:36]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:44:36]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:44:36]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:44:36]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:44:36]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:44:38]: User command was 'show info'
+[INFO][23/11/2020 20:44:55]: User command was 'search modbus'
+[INFO][23/11/2020 20:45:45]: User command was ''
+[INFO][23/11/2020 20:45:48]: User command was 'exit'
+[INFO][23/11/2020 20:45:48]: Exiting icsfinder
