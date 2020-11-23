@@ -150,7 +150,7 @@ def check_icmp(ip):
     via ping -c 1
     """
     # try pinging ip
-    response = os.system("ping -c 1 " + ip)
+    response = os.system("ping -c 1 " + ip + " > /dev/null")
 
     # and then check the response...
     if response == 0:

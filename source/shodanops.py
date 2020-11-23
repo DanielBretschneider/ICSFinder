@@ -15,7 +15,7 @@ import os
 import util
 import basics
 import shodan
-
+from datetime import datetime
 
 # ----------------------------------------------------------
 # FUNCTIONS
@@ -70,9 +70,24 @@ def get_shodan_info():
 def shodan_search(command):
     """
     Shodan search request
-    Prints IP + data
+    Prints IP + additional data and inserts data into database.
+
+    id INTEGER PRIMARY KEY,
+    ip_address TEXT NOT NULL,
+    keywords TEXT NOT NULL,
+    accessible INTEGER NOT NULL,
+    last_success_ping TEXT NOT NULL,
+    creation_date TEXT NOT NULL,
+    http_accessible INTEGER NOT NULL
+
     """
     command = command[7:]
+
+    # get current time
+    now = datetime.now()
+
+    # format datetime string
+    formatted_time_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
     try:
         # Search Shodan
@@ -82,8 +97,20 @@ def shodan_search(command):
         # Show the results
         print('Results found: {}'.format(results['total']))
         for result in results['matches']:
-            print('IP: ' + result['ip_str'])
-            database.insert(str(result['ip_str']), command + ' country:AT', str(0), "", "", str(0))
+            # IP Address
+            ip = str(result['ip_str'])
+            # Accessible over ICMP
+            icmp_acc = str(util.check_icmp(result['ip_str']))
+            # Accessible over HTTP
+            http_acc = str(util.check_http(result['ip_str']))
+
+            # print information
+            print('IP: ' + ip + "\tICMP: " + icmp_acc + "\tHTTP: " + http_acc)
+
+            # insert into database
+            database.insert(ip, command + ' country:AT', icmp_acc,
+                            str(formatted_time_string), str(formatted_time_string),
+                            http_acc)
     except shodan.APIError as e:
         basics.display_warning("There was an error with your query.")
         basics.log(e.value, 2)

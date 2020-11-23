@@ -1406,3 +1406,90 @@ Error:
 [INFO][23/11/2020 18:50:23]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
 [INFO][23/11/2020 18:50:29]: User command was 'show devices'
 [INFO][23/11/2020 18:50:35]: User command was 'host 178.115.225.102'
+[INFO][23/11/2020 19:16:40]: User command was 'exit'
+[INFO][23/11/2020 19:16:40]: Exiting icsfinder
+[INFO][23/11/2020 19:16:42]: Program started
+[INFO][23/11/2020 19:16:42]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:16:42]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:16:42]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:16:42]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:16:42]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:16:42]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:16:43]: User command was ''
+[INFO][23/11/2020 19:16:43]: User command was ''
+[INFO][23/11/2020 19:16:43]: User command was ''
+[INFO][23/11/2020 19:16:49]: User command was ''
+[INFO][23/11/2020 19:16:50]: User command was ''
+[INFO][23/11/2020 19:16:56]: shutdown
+[INFO][23/11/2020 19:16:58]: Program started
+[INFO][23/11/2020 19:16:58]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:16:58]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:16:58]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:16:58]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:16:58]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:16:58]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:16:58]: User command was ''
+[INFO][23/11/2020 19:16:58]: User command was ''
+[INFO][23/11/2020 19:17:10]: User command was 'search apache'
+[INFO][23/11/2020 19:17:44]: Program started
+[INFO][23/11/2020 19:17:44]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:17:44]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:17:44]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:17:44]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:17:44]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:17:44]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:17:49]: User command was 'search apache'
+[INFO][23/11/2020 19:17:57]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('82.218.38.9', 'apache country:AT', True, '23/11/2020 19:17:49', '23/11/2020 19:17:49', None)
+Error:
+no such column: None
+[INFO][23/11/2020 19:21:06]: Program started
+[INFO][23/11/2020 19:21:06]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:21:06]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:21:06]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:21:06]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:21:06]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:21:06]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:21:09]: User command was 'search scada'
+[INFO][23/11/2020 19:21:46]: User command was 'host 217.175.200.11'
+[INFO][23/11/2020 19:22:16]: User command was 'host 217.175.200.11'
+[INFO][23/11/2020 19:22:17]: User command was 'exit'
+[INFO][23/11/2020 19:22:17]: Exiting icsfinder
+[INFO][23/11/2020 19:22:18]: Program started
+[INFO][23/11/2020 19:22:18]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:22:18]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:22:18]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:22:18]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:22:18]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:22:18]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:22:24]: User command was ''
+[INFO][23/11/2020 19:22:24]: User command was ''
+[INFO][23/11/2020 19:22:24]: User command was ''
+[INFO][23/11/2020 19:22:36]: User command was 'host 217.175.200.11'
+[INFO][23/11/2020 19:22:45]: User command was 'search scada'
+[INFO][23/11/2020 19:25:54]: User command was 'exit'
+[INFO][23/11/2020 19:25:54]: Exiting icsfinder
+[INFO][23/11/2020 19:25:55]: Program started
+[INFO][23/11/2020 19:25:55]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:25:55]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:25:55]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:25:55]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:25:55]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:25:55]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:26:00]: User command was 'search apache'
+[INFO][23/11/2020 19:26:08]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('85.127.126.163', 'apache country:AT', True, '23/11/2020 19:26:00', '23/11/2020 19:26:00', None)
+Error:
+no such column: None
+[INFO][23/11/2020 19:26:45]: Program started
+[INFO][23/11/2020 19:26:45]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 19:26:45]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 19:26:45]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 19:26:45]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 19:26:45]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 19:26:45]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 19:26:48]: User command was 'search scada'
