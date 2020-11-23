@@ -1397,3 +1397,12 @@ Error:
 [INFO][23/11/2020 18:38:58]: User command was ''
 [INFO][23/11/2020 18:39:55]: User command was 'exit'
 [INFO][23/11/2020 18:39:55]: Exiting icsfinder
+[INFO][23/11/2020 18:50:23]: Program started
+[INFO][23/11/2020 18:50:23]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 18:50:23]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 18:50:23]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 18:50:23]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 18:50:23]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 18:50:23]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 18:50:29]: User command was 'show devices'
+[INFO][23/11/2020 18:50:35]: User command was 'host 178.115.225.102'

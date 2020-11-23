@@ -12,6 +12,7 @@
 import constants
 import database
 import os
+import util
 import basics
 import shodan
 
@@ -110,6 +111,11 @@ Operating System: {}
         # print additional data
         for item in host['data']:
             print(item['data'])
+
+        # print connection info
+        print("\nConnectivity")
+        print("ICMP: " + str(util.check_icmp(ip_address)))
+        print("HTTP: " + str(util.check_http(ip_address)))
     except shodan.APIError as e:
         basics.display_warning("No information available for that IP.")
 
