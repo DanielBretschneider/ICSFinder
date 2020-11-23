@@ -168,10 +168,10 @@ def check_http(ip):
     """
     try:
         # try reaching IP via http
-        response_code = requests.head("http://" + ip + "/")
+        response_code = requests.head("http://" + ip)
 
         # check response code
-        if response_code == 200:
+        if response_code.ok:
             return True
         else:
             return False
