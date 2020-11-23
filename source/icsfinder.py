@@ -95,12 +95,7 @@ def get_splitted_command(command):
     # split cmd
     splitted_command = command.split(" ")
 
-    # check if command has more arguments
-    if len(splitted_command) == 1:
-        basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
-        start_interactive_console()
-    else:
-        return splitted_command
+    return splitted_command
 
 
 def show_cmd(command):
@@ -117,7 +112,12 @@ def show_cmd(command):
     elif split_command[1] == "info":
         shodanops.get_shodan_info()
     elif split_command[1] == "devices":
-        database.print_found_devices()
+        if len(split_command) == 3:
+            database.print_devices_with_keyword(split_command[2])
+        else:
+            database.print_found_devices()
+    elif split_command[1] == "device" and split_command[2] != "":
+        database.print_device_with_id(split_command[2])
     else:
         basics.display_message("'" + command + "' is no valid command. Write 'help' for further information.")
 

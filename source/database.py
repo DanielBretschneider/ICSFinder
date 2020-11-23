@@ -118,9 +118,67 @@ def print_found_devices():
     try:
         # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        print(pandas.read_sql_query("SELECT ip_address, keywords FROM devices;", connection))
+        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices")
+        found_records = cursor.fetchall()
+
+        # print table header
+        print_devices_table_header()
+
+        # print found resources
+        for record in found_records:
+            print_device_formatted(record)
+
     except Exception as e:
         basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
+
+
+def print_device_with_id(id):
+    """
+    Print device with given ID
+    """
+    try:
+        # database connection
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices WHERE id=" + str(id))
+        record = cursor.fetchone()
+        print_devices_table_header()
+        print_device_formatted(record)
+    except Exception as e:
+        basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
+
+
+def print_devices_with_keyword(keyword):
+    """
+    Print device with given ID
+    """
+    try:
+        # database connection
+        connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices WHERE keywords LIKE \'%" +
+                                    str(keyword) + "%\'")
+        records = cursor.fetchall()
+        print_devices_table_header()
+
+        # print found resources
+        for record in records:
+            print_device_formatted(record)
+    except Exception as e:
+        basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
+
+
+def print_device_formatted(record):
+    """
+    Print single Record Formatted
+    """
+    record_lst = list(record)
+    print(str(record_lst[0]) + "\t" + str(record_lst[1]) + "\t" + str(record_lst[2]))
+
+
+def print_devices_table_header():
+    """
+    Print formatted header for terminal table.
+    """
+    print('\033[1;34m' + "ID\tIP Address\tKeywords" + '\033[0m')
 
 
 def count_found_devices():

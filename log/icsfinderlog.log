@@ -760,3 +760,640 @@ can only concatenate str (not "int") to str
 [INFO][21/11/2020 22:48:49]: [basics.displayMessage()] -> ("Connection to database established")
 [INFO][21/11/2020 22:48:49]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
 [INFO][21/11/2020 22:48:52]: User command was 'host 46.125.67.223'
+[INFO][21/11/2020 22:50:58]: User command was 'host 158.255.211.97'
+[INFO][21/11/2020 22:51:07]: User command was 'host 213.90.111.162'
+[INFO][21/11/2020 22:51:18]: User command was 'host 185.128.245.180'
+[INFO][21/11/2020 22:51:32]: User command was 'location 185.128.245.180'
+[INFO][21/11/2020 22:51:32]: [basics.displayMessage()] -> ("'location 185.128.245.180' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 22:51:32]: 'location 185.128.245.180' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 22:51:45]: User command was 'help'
+[INFO][21/11/2020 22:51:45]: Printed help message
+[INFO][21/11/2020 22:51:49]: User command was 'locate'
+[INFO][21/11/2020 22:51:52]: Program started
+[INFO][21/11/2020 22:51:52]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][21/11/2020 22:51:52]: Attemting to ping 'http://www.google.com/'
+[INFO][21/11/2020 22:51:52]: Successfully pinged 'http://www.google.com/'
+[INFO][21/11/2020 22:51:52]: [basics.displayMessage()] -> ("Host is online")
+[INFO][21/11/2020 22:51:52]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][21/11/2020 22:51:52]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][21/11/2020 22:51:57]: User command was 'locate 185.128.245.180'
+[INFO][21/11/2020 22:52:12]: User command was 'clear'
+[INFO][21/11/2020 22:52:14]: User command was 'help'
+[INFO][21/11/2020 22:52:14]: Printed help message
+[INFO][21/11/2020 23:27:29]: User command was ''
+[INFO][21/11/2020 23:27:29]: User command was ''
+[INFO][21/11/2020 23:27:29]: User command was ''
+[INFO][21/11/2020 23:27:29]: User command was ''
+[INFO][21/11/2020 23:27:35]: User command was ''
+[INFO][21/11/2020 23:27:40]: User command was ''
+[INFO][21/11/2020 23:27:41]: User command was ''
+[INFO][21/11/2020 23:27:41]: User command was ''
+[INFO][21/11/2020 23:27:41]: User command was ''
+[INFO][21/11/2020 23:27:41]: User command was ''
+[INFO][21/11/2020 23:27:41]: User command was ''
+[INFO][21/11/2020 23:27:42]: User command was ''
+[INFO][21/11/2020 23:27:42]: User command was ''
+[INFO][21/11/2020 23:27:42]: User command was ''
+[INFO][21/11/2020 23:27:43]: User command was 'ls'
+[INFO][21/11/2020 23:27:43]: [basics.displayMessage()] -> ("'ls' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 23:27:43]: 'ls' is no valid command. Write 'help' for further information.
+[INFO][21/11/2020 23:27:49]: User command was 'show myip'
+[INFO][21/11/2020 23:27:55]: User command was 'show device'
+[INFO][21/11/2020 23:27:55]: [basics.displayMessage()] -> ("'show device' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 23:27:57]: User command was 'show devices'
+[INFO][21/11/2020 23:28:18]: User command was 'show devices'
+[INFO][21/11/2020 23:28:25]: User command was 'show device'
+[INFO][21/11/2020 23:28:25]: [basics.displayMessage()] -> ("'show device' is no valid command. Write 'help' for further information.")
+[INFO][21/11/2020 23:28:27]: User command was 'show devices'
+[INFO][21/11/2020 23:54:39]: User command was ''
+[INFO][21/11/2020 23:54:39]: User command was ''
+[INFO][21/11/2020 23:54:39]: User command was ''
+[INFO][21/11/2020 23:54:41]: User command was 'help'
+[INFO][21/11/2020 23:54:41]: Printed help message
+[INFO][22/11/2020 00:57:55]: User command was 'clear'
+[INFO][22/11/2020 00:57:57]: User command was 'help'
+[INFO][22/11/2020 00:57:57]: Printed help message
+[INFO][22/11/2020 00:57:58]: User command was 'exit'
+[INFO][22/11/2020 00:57:58]: Exiting icsfinder
+[INFO][23/11/2020 15:47:44]: Program started
+[INFO][23/11/2020 15:47:44]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 15:47:44]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 15:47:44]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 15:47:44]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 15:47:44]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 15:47:44]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 15:47:46]: User command was ''
+[INFO][23/11/2020 15:47:47]: User command was ''
+[INFO][23/11/2020 15:47:53]: User command was 'help'
+[INFO][23/11/2020 15:47:53]: Printed help message
+[INFO][23/11/2020 15:48:08]: User command was 'show devices'
+[INFO][23/11/2020 15:48:08]: User command was ''
+[INFO][23/11/2020 15:48:59]: User command was ''
+[INFO][23/11/2020 15:48:59]: User command was ''
+[INFO][23/11/2020 15:50:07]: User command was 'ls'
+[INFO][23/11/2020 15:50:07]: [basics.displayMessage()] -> ("'ls' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 15:50:07]: 'ls' is no valid command. Write 'help' for further information.
+[INFO][23/11/2020 15:56:24]: User command was 'exit'
+[INFO][23/11/2020 15:56:24]: Exiting icsfinder
+[INFO][23/11/2020 15:56:47]: Program started
+[INFO][23/11/2020 15:56:47]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 15:56:47]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 15:56:47]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 15:56:47]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 15:56:47]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 15:56:47]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 15:56:51]: User command was 'show device 2'
+[INFO][23/11/2020 15:56:51]: [basics.displayMessage()] -> ("'show device 2' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 15:58:36]: User command was 'exit'
+[INFO][23/11/2020 15:58:36]: Exiting icsfinder
+[INFO][23/11/2020 15:58:37]: Program started
+[INFO][23/11/2020 15:58:37]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 15:58:37]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 15:58:37]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 15:58:37]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 15:58:37]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 15:58:37]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 15:58:41]: User command was 'show devices 2'
+[INFO][23/11/2020 15:59:50]: User command was 'exit'
+[INFO][23/11/2020 15:59:50]: Exiting icsfinder
+[INFO][23/11/2020 15:59:52]: Program started
+[INFO][23/11/2020 15:59:52]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 15:59:52]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 15:59:52]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 15:59:52]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 15:59:52]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 15:59:52]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 15:59:57]: User command was 'show device 34'
+[INFO][23/11/2020 15:59:58]: User command was ''
+[INFO][23/11/2020 15:59:59]: User command was ''
+[INFO][23/11/2020 16:02:22]: User command was 'exit'
+[INFO][23/11/2020 16:02:22]: Exiting icsfinder
+[INFO][23/11/2020 16:02:33]: Program started
+[INFO][23/11/2020 16:02:33]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:02:33]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:02:33]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:02:33]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:02:33]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:02:33]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:02:40]: User command was 'show device 23'
+[INFO][23/11/2020 16:02:40]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:03:32]: User command was 'show device 23'
+[INFO][23/11/2020 16:03:32]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:03:34]: User command was 'show device 22'
+[INFO][23/11/2020 16:03:34]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:05:06]: User command was 'exit'
+[INFO][23/11/2020 16:05:06]: Exiting icsfinder
+[INFO][23/11/2020 16:05:08]: Program started
+[INFO][23/11/2020 16:05:08]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:05:08]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:05:08]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:05:08]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:05:08]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:05:08]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:05:13]: User command was 'show devices'
+[INFO][23/11/2020 16:05:17]: User command was 'show device 2'
+[INFO][23/11/2020 16:05:17]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:07:26]: User command was 'exit'
+[INFO][23/11/2020 16:07:26]: Exiting icsfinder
+[INFO][23/11/2020 16:07:27]: Program started
+[INFO][23/11/2020 16:07:27]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:07:27]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:07:27]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:07:27]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:07:27]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:07:27]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:07:30]: User command was 'show device 2'
+[INFO][23/11/2020 16:07:30]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:07:45]: User command was 'exit'
+[INFO][23/11/2020 16:07:45]: Exiting icsfinder
+[INFO][23/11/2020 16:07:47]: Program started
+[INFO][23/11/2020 16:07:47]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:07:47]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:07:47]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:07:47]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:07:47]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:07:47]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:07:52]: User command was 'show device 2'
+[INFO][23/11/2020 16:07:52]: Error while trying to connect to database. 
+Error:
+unsupported operand type(s) for +: 'int' and 'str'
+[INFO][23/11/2020 16:07:53]: User command was ''
+[INFO][23/11/2020 16:07:53]: User command was ''
+[INFO][23/11/2020 16:07:54]: User command was 'exit'
+[INFO][23/11/2020 16:07:54]: Exiting icsfinder
+[INFO][23/11/2020 16:09:07]: Program started
+[INFO][23/11/2020 16:09:07]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:09:07]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:09:07]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:09:07]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:09:07]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:09:07]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:09:17]: User command was 'show device 23'
+[INFO][23/11/2020 16:10:20]: User command was 'help'
+[INFO][23/11/2020 16:10:20]: Printed help message
+[INFO][23/11/2020 16:11:22]: User command was 'exit'
+[INFO][23/11/2020 16:11:22]: Exiting icsfinder
+[INFO][23/11/2020 16:11:23]: Program started
+[INFO][23/11/2020 16:11:23]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:11:23]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:11:23]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:11:23]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:11:23]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:11:23]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:11:26]: User command was 'show device 43'
+[INFO][23/11/2020 16:11:37]: User command was 'clear'
+[INFO][23/11/2020 16:11:42]: User command was 'show device 344'
+[INFO][23/11/2020 16:14:17]: User command was 'exit'
+[INFO][23/11/2020 16:14:17]: Exiting icsfinder
+[INFO][23/11/2020 16:14:19]: Program started
+[INFO][23/11/2020 16:14:19]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:14:19]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:14:19]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:14:19]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:14:19]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:14:19]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:14:27]: User command was 'show devices'
+[INFO][23/11/2020 16:14:27]: Error while trying to connect to database. 
+Error:
+near "<": syntax error
+[INFO][23/11/2020 16:15:06]: User command was 'exit'
+[INFO][23/11/2020 16:15:06]: Exiting icsfinder
+[INFO][23/11/2020 16:15:07]: Program started
+[INFO][23/11/2020 16:15:07]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:15:07]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:15:07]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:15:07]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:15:07]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:15:07]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:15:11]: User command was 'show devices'
+[INFO][23/11/2020 16:15:11]: Error while trying to connect to database. 
+Error:
+near "<": syntax error
+[INFO][23/11/2020 16:15:13]: User command was 'show devices'
+[INFO][23/11/2020 16:15:13]: Error while trying to connect to database. 
+Error:
+near "<": syntax error
+[INFO][23/11/2020 16:16:30]: User command was 'exit'
+[INFO][23/11/2020 16:16:30]: Exiting icsfinder
+[INFO][23/11/2020 16:16:32]: Program started
+[INFO][23/11/2020 16:16:32]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:16:32]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:16:32]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:16:32]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:16:32]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:16:32]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:16:36]: User command was 'show devices'
+[INFO][23/11/2020 16:17:18]: User command was 'exit'
+[INFO][23/11/2020 16:17:18]: Exiting icsfinder
+[INFO][23/11/2020 16:17:19]: Program started
+[INFO][23/11/2020 16:17:19]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:17:19]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:17:19]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:17:19]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:17:19]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:17:19]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:17:24]: User command was 'show device 34'
+[INFO][23/11/2020 16:17:32]: User command was 'show devices'
+[INFO][23/11/2020 16:18:02]: User command was 'exit'
+[INFO][23/11/2020 16:18:02]: Exiting icsfinder
+[INFO][23/11/2020 16:18:10]: Program started
+[INFO][23/11/2020 16:18:10]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:18:10]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:18:10]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:18:10]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:18:10]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:18:10]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:18:13]: User command was ''
+[INFO][23/11/2020 16:18:13]: User command was ''
+[INFO][23/11/2020 16:18:15]: User command was 'help'
+[INFO][23/11/2020 16:18:15]: Printed help message
+[INFO][23/11/2020 16:18:24]: User command was 'show myip'
+[INFO][23/11/2020 16:18:27]: User command was 'show info'
+[INFO][23/11/2020 16:18:32]: User command was 'show devices'
+[INFO][23/11/2020 16:18:38]: User command was 'show 345'
+[INFO][23/11/2020 16:18:38]: [basics.displayMessage()] -> ("'show 345' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 16:18:43]: User command was 'show device 345'
+[INFO][23/11/2020 16:18:46]: User command was ''
+[INFO][23/11/2020 16:18:47]: User command was ''
+[INFO][23/11/2020 16:18:48]: User command was ''
+[INFO][23/11/2020 16:21:16]: User command was ''
+[INFO][23/11/2020 16:21:17]: User command was ''
+[INFO][23/11/2020 16:21:17]: User command was ''
+[INFO][23/11/2020 16:21:19]: User command was 'db count'
+[INFO][23/11/2020 16:21:20]: User command was 'ls'
+[INFO][23/11/2020 16:21:20]: [basics.displayMessage()] -> ("'ls' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 16:21:20]: 'ls' is no valid command. Write 'help' for further information.
+[INFO][23/11/2020 16:21:22]: User command was 'help'
+[INFO][23/11/2020 16:21:22]: Printed help message
+[INFO][23/11/2020 16:21:32]: User command was 'db count'
+[INFO][23/11/2020 16:21:39]: User command was 'show device 390'
+[INFO][23/11/2020 16:21:47]: User command was 'locate 78.132.60.48'
+[INFO][23/11/2020 16:44:34]: User command was 'clear'
+[INFO][23/11/2020 16:44:39]: User command was 'db count'
+[INFO][23/11/2020 16:44:40]: User command was ''
+[INFO][23/11/2020 16:44:40]: User command was ''
+[INFO][23/11/2020 16:45:30]: User command was ''
+[INFO][23/11/2020 16:45:30]: User command was ''
+[INFO][23/11/2020 16:45:30]: User command was ''
+[INFO][23/11/2020 16:45:32]: User command was 'help'
+[INFO][23/11/2020 16:45:32]: Printed help message
+[INFO][23/11/2020 16:45:38]: User command was 'show myip'
+[INFO][23/11/2020 16:47:21]: User command was 'search simatic country:at'
+[INFO][23/11/2020 16:48:15]: User command was 'search port:502'
+[INFO][23/11/2020 16:48:32]: User command was ''
+[INFO][23/11/2020 16:48:32]: User command was ''
+[INFO][23/11/2020 16:48:33]: User command was ''
+[INFO][23/11/2020 16:48:36]: User command was 'db count'
+[INFO][23/11/2020 16:48:37]: User command was ''
+[INFO][23/11/2020 16:48:37]: User command was ''
+[INFO][23/11/2020 16:48:45]: User command was 'show device 429'
+[INFO][23/11/2020 16:49:03]: User command was ''
+[INFO][23/11/2020 16:49:03]: User command was ''
+[INFO][23/11/2020 16:49:04]: User command was ''
+[INFO][23/11/2020 16:49:13]: User command was ''
+[INFO][23/11/2020 16:49:13]: User command was ''
+[INFO][23/11/2020 16:49:13]: User command was ''
+[INFO][23/11/2020 16:49:13]: User command was ''
+[INFO][23/11/2020 16:49:16]: User command was 'db count'
+[INFO][23/11/2020 16:49:17]: User command was ''
+[INFO][23/11/2020 16:49:17]: User command was ''
+[INFO][23/11/2020 16:49:17]: User command was ''
+[INFO][23/11/2020 16:49:20]: User command was 'show devices'
+[INFO][23/11/2020 16:49:37]: User command was ''
+[INFO][23/11/2020 16:49:37]: User command was ''
+[INFO][23/11/2020 16:49:37]: User command was ''
+[INFO][23/11/2020 16:49:37]: User command was ''
+[INFO][23/11/2020 16:49:40]: User command was 'show info'
+[INFO][23/11/2020 16:50:31]: User command was 'clear'
+[INFO][23/11/2020 16:50:34]: User command was 'help'
+[INFO][23/11/2020 16:50:34]: Printed help message
+[INFO][23/11/2020 16:50:35]: User command was ''
+[INFO][23/11/2020 16:50:35]: User command was ''
+[INFO][23/11/2020 16:50:40]: User command was 'show device 432'
+[INFO][23/11/2020 16:50:47]: User command was ''
+[INFO][23/11/2020 16:50:47]: User command was ''
+[INFO][23/11/2020 16:50:57]: User command was 'locate 90.152.143.209'
+[INFO][23/11/2020 16:51:08]: User command was 'show device 34'
+[INFO][23/11/2020 16:51:13]: User command was 'host 90.152.143.209'
+[INFO][23/11/2020 16:53:09]: User command was 'exit'
+[INFO][23/11/2020 16:53:09]: Exiting icsfinder
+[INFO][23/11/2020 16:53:31]: Program started
+[INFO][23/11/2020 16:53:31]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:53:31]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:53:31]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:53:31]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:53:31]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:53:31]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:53:31]: User command was ''
+[INFO][23/11/2020 16:53:33]: User command was 'exit'
+[INFO][23/11/2020 16:53:33]: Exiting icsfinder
+[INFO][23/11/2020 16:53:37]: Program started
+[INFO][23/11/2020 16:53:37]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:53:37]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:53:37]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:53:37]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:53:37]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:53:37]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:53:44]: User command was 'show device 421'
+[INFO][23/11/2020 16:53:59]: User command was 'locate 90.152.196.41'
+[INFO][23/11/2020 16:54:04]: User command was 'host 90.152.196.41'
+[INFO][23/11/2020 16:54:29]: User command was 'exit'
+[INFO][23/11/2020 16:54:29]: Exiting icsfinder
+[INFO][23/11/2020 16:54:32]: Program started
+[INFO][23/11/2020 16:54:32]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 16:54:32]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 16:54:32]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 16:54:32]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 16:54:32]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 16:54:32]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 16:54:36]: User command was 'show devices'
+[INFO][23/11/2020 16:55:33]: User command was 'show devices'
+[INFO][23/11/2020 16:55:41]: User command was 'locate 91.114.85.122'
+[INFO][23/11/2020 16:55:48]: User command was 'host 91.114.85.122'
+[INFO][23/11/2020 16:56:46]: User command was ''
+[INFO][23/11/2020 16:56:46]: User command was ''
+[INFO][23/11/2020 16:56:46]: User command was ''
+[INFO][23/11/2020 16:56:50]: User command was 'search dnp'
+[INFO][23/11/2020 16:57:19]: User command was 'search dnp3'
+[INFO][23/11/2020 16:57:32]: User command was 'search port:20000'
+[INFO][23/11/2020 16:58:20]: User command was 'db count'
+[INFO][23/11/2020 16:58:23]: User command was 'show devices'
+[INFO][23/11/2020 16:58:33]: User command was ''
+[INFO][23/11/2020 16:58:33]: User command was ''
+[INFO][23/11/2020 16:58:34]: User command was ''
+[INFO][23/11/2020 16:58:37]: User command was 'clear'
+[INFO][23/11/2020 16:58:38]: User command was 'helpü'
+[INFO][23/11/2020 16:58:38]: [basics.displayMessage()] -> ("'helpü' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 16:58:38]: 'helpü' is no valid command. Write 'help' for further information.
+[INFO][23/11/2020 16:58:40]: User command was 'help'
+[INFO][23/11/2020 16:58:40]: Printed help message
+[INFO][23/11/2020 16:58:49]: User command was 'exit'
+[INFO][23/11/2020 16:58:49]: Exiting icsfinder
+[INFO][23/11/2020 17:01:12]: Program started
+[INFO][23/11/2020 17:01:12]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:01:12]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:01:12]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:01:12]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:01:12]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:01:12]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:01:13]: User command was 'help'
+[INFO][23/11/2020 17:01:13]: Printed help message
+[INFO][23/11/2020 17:01:38]: User command was 'exit'
+[INFO][23/11/2020 17:01:38]: Exiting icsfinder
+[INFO][23/11/2020 17:01:41]: Program started
+[INFO][23/11/2020 17:01:41]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:01:41]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:01:41]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:01:41]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:01:41]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:01:41]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:01:43]: User command was 'help'
+[INFO][23/11/2020 17:01:43]: Printed help message
+[INFO][23/11/2020 17:02:07]: User command was 'exit'
+[INFO][23/11/2020 17:02:07]: Exiting icsfinder
+[INFO][23/11/2020 17:02:08]: Program started
+[INFO][23/11/2020 17:02:08]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:02:08]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:02:08]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:02:08]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:02:08]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:02:08]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:02:09]: User command was 'help'
+[INFO][23/11/2020 17:02:09]: Printed help message
+[INFO][23/11/2020 17:02:25]: User command was 'exit'
+[INFO][23/11/2020 17:02:25]: Exiting icsfinder
+[INFO][23/11/2020 17:02:26]: Program started
+[INFO][23/11/2020 17:02:26]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:02:26]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:02:26]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:02:26]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:02:26]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:02:26]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:02:27]: User command was 'help'
+[INFO][23/11/2020 17:02:27]: Printed help message
+[INFO][23/11/2020 17:02:38]: User command was 'exit'
+[INFO][23/11/2020 17:02:38]: Exiting icsfinder
+[INFO][23/11/2020 17:02:41]: Program started
+[INFO][23/11/2020 17:02:41]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:02:41]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:02:41]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:02:41]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:02:41]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:02:41]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:02:42]: User command was 'help'
+[INFO][23/11/2020 17:02:42]: Printed help message
+[INFO][23/11/2020 17:33:09]: User command was 'exit'
+[INFO][23/11/2020 17:33:09]: Exiting icsfinder
+[INFO][23/11/2020 17:33:18]: Program started
+[INFO][23/11/2020 17:33:18]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:33:18]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:33:18]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:33:18]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:33:18]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:33:18]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:33:19]: User command was ''
+[INFO][23/11/2020 17:33:19]: User command was ''
+[INFO][23/11/2020 17:33:21]: User command was 'help'
+[INFO][23/11/2020 17:33:21]: Printed help message
+[INFO][23/11/2020 17:33:29]: User command was 'show devices'
+[INFO][23/11/2020 17:33:40]: User command was 'show device 543'
+[INFO][23/11/2020 17:33:48]: User command was 'locate 81.10.132.42'
+[INFO][23/11/2020 17:34:55]: User command was ''
+[INFO][23/11/2020 17:34:55]: User command was ''
+[INFO][23/11/2020 17:34:59]: User command was 'host 81.10.132.42'
+[INFO][23/11/2020 17:35:28]: User command was ''
+[INFO][23/11/2020 17:35:34]: User command was 'db count'
+[INFO][23/11/2020 17:35:36]: User command was 'help'
+[INFO][23/11/2020 17:35:36]: Printed help message
+[INFO][23/11/2020 17:35:42]: User command was 'show infp'
+[INFO][23/11/2020 17:35:42]: [basics.displayMessage()] -> ("'show infp' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 17:35:45]: User command was 'show info'
+[INFO][23/11/2020 17:36:04]: User command was 'search mongodb'
+[INFO][23/11/2020 17:36:17]: User command was 'search raspberry'
+[INFO][23/11/2020 17:37:05]: User command was 'search ftp'
+[INFO][23/11/2020 17:37:23]: User command was 'search trafficlight'
+[INFO][23/11/2020 17:37:35]: User command was 'search scada'
+[INFO][23/11/2020 17:38:31]: User command was 'search siemens s7'
+[INFO][23/11/2020 17:38:38]: User command was 'search 'siemens s7''
+[INFO][23/11/2020 17:38:51]: User command was 'search siemens'
+[INFO][23/11/2020 17:39:15]: User command was 'search proconos'
+[INFO][23/11/2020 17:39:21]: User command was 'search codesys'
+[INFO][23/11/2020 17:39:28]: User command was 'search omron'
+[INFO][23/11/2020 17:39:37]: User command was 'search hartip'
+[INFO][23/11/2020 17:39:42]: User command was 'search hart ip'
+[INFO][23/11/2020 17:39:49]: User command was 'search bacnet'
+[INFO][23/11/2020 17:40:03]: User command was 'search srtp'
+[INFO][23/11/2020 17:40:12]: User command was 'search tridium'
+[INFO][23/11/2020 17:40:30]: User command was 'search rtu'
+[INFO][23/11/2020 17:40:32]: User command was ''
+[INFO][23/11/2020 17:40:32]: User command was ''
+[INFO][23/11/2020 17:40:35]: User command was 'show devices'
+[INFO][23/11/2020 17:41:01]: User command was 'show device 800'
+[INFO][23/11/2020 17:41:06]: User command was ''
+[INFO][23/11/2020 17:41:06]: User command was ''
+[INFO][23/11/2020 17:41:06]: User command was ''
+[INFO][23/11/2020 17:41:06]: User command was ''
+[INFO][23/11/2020 17:41:06]: User command was ''
+[INFO][23/11/2020 17:41:19]: User command was 'locate 193.109.140.169'
+[INFO][23/11/2020 17:41:21]: User command was ''
+[INFO][23/11/2020 17:41:22]: User command was ''
+[INFO][23/11/2020 17:41:28]: User command was 'host 193.109.140.169'
+[INFO][23/11/2020 17:42:07]: User command was ''
+[INFO][23/11/2020 17:42:12]: User command was 'clear'
+[INFO][23/11/2020 17:42:13]: User command was ''
+[INFO][23/11/2020 17:42:13]: User command was ''
+[INFO][23/11/2020 17:42:15]: User command was 'exit'
+[INFO][23/11/2020 17:42:15]: Exiting icsfinder
+[INFO][23/11/2020 17:46:39]: Program started
+[INFO][23/11/2020 17:46:39]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:46:39]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:46:39]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:46:39]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:46:39]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:46:39]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:46:46]: User command was 'show devices dnp'
+[INFO][23/11/2020 17:46:58]: User command was 'show device dnp'
+[INFO][23/11/2020 17:47:01]: User command was 'show device dnp3'
+[INFO][23/11/2020 17:47:01]: Error while trying to connect to database. 
+Error:
+'NoneType' object is not iterable
+[INFO][23/11/2020 17:47:08]: User command was 'show device siemens'
+[INFO][23/11/2020 17:49:08]: User command was 'exit'
+[INFO][23/11/2020 17:49:08]: Exiting icsfinder
+[INFO][23/11/2020 17:53:36]: Program started
+[INFO][23/11/2020 17:53:36]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:53:36]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:53:36]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:53:36]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:53:36]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:53:36]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:53:39]: User command was 'show device 232'
+[INFO][23/11/2020 17:53:47]: User command was 'show device dnps'
+[INFO][23/11/2020 17:53:48]: User command was 'show device dnp'
+[INFO][23/11/2020 17:56:16]: User command was 'exit'
+[INFO][23/11/2020 17:56:16]: Exiting icsfinder
+[INFO][23/11/2020 17:56:17]: Program started
+[INFO][23/11/2020 17:56:17]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:56:17]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:56:17]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:56:17]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:56:17]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:56:17]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:56:50]: User command was 'show devices'
+[INFO][23/11/2020 17:56:53]: User command was 'show devices dnp'
+[INFO][23/11/2020 17:56:58]: User command was 'show device 555'
+[INFO][23/11/2020 17:56:59]: User command was ''
+[INFO][23/11/2020 17:56:59]: User command was ''
+[INFO][23/11/2020 17:57:06]: User command was 'clear'
+[INFO][23/11/2020 17:57:08]: User command was 'exit'
+[INFO][23/11/2020 17:57:08]: Exiting icsfinder
+[INFO][23/11/2020 17:58:44]: Program started
+[INFO][23/11/2020 17:58:44]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 17:58:44]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 17:58:45]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 17:58:45]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 17:58:45]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 17:58:45]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 17:58:48]: User command was 'help'
+[INFO][23/11/2020 17:58:48]: Printed help message
+[INFO][23/11/2020 17:59:02]: User command was 'search devices modbux'
+[INFO][23/11/2020 17:59:04]: User command was 'search devices modbus'
+[INFO][23/11/2020 17:59:11]: User command was 'search devices apache'
+[INFO][23/11/2020 17:59:16]: User command was 'clear'
+[INFO][23/11/2020 17:59:24]: User command was 'show devices modbus'
+[INFO][23/11/2020 17:59:42]: User command was 'show device 568'
+[INFO][23/11/2020 17:59:50]: User command was 'host 212.67.225.132'
+[INFO][23/11/2020 17:59:58]: User command was 'show'
+[INFO][23/11/2020 18:01:46]: Program started
+[INFO][23/11/2020 18:01:46]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 18:01:46]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 18:01:46]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 18:01:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 18:01:46]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 18:01:46]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 18:01:49]: User command was 'help'
+[INFO][23/11/2020 18:01:49]: Printed help message
+[INFO][23/11/2020 18:06:13]: User command was 'exit'
+[INFO][23/11/2020 18:06:13]: Exiting icsfinder
+[INFO][23/11/2020 18:08:12]: Program started
+[INFO][23/11/2020 18:08:12]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 18:08:12]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 18:08:13]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 18:08:13]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 18:08:13]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 18:08:13]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 18:08:17]: User command was 'help'
+[INFO][23/11/2020 18:08:17]: Printed help message
+[INFO][23/11/2020 18:08:28]: User command was ''
+[INFO][23/11/2020 18:08:29]: User command was ''
+[INFO][23/11/2020 18:08:29]: User command was ''
+[INFO][23/11/2020 18:08:34]: User command was 'show devices'
+[INFO][23/11/2020 18:08:51]: User command was 'show device 812'
+[INFO][23/11/2020 18:08:56]: User command was ''
+[INFO][23/11/2020 18:08:56]: User command was ''
+[INFO][23/11/2020 18:08:58]: User command was 'locate 212.186.109.201'
+[INFO][23/11/2020 18:09:02]: User command was 'host 212.186.109.201'
+[INFO][23/11/2020 18:09:14]: User command was 'clear'
+[INFO][23/11/2020 18:09:15]: User command was 'help'
+[INFO][23/11/2020 18:09:15]: Printed help message
+[INFO][23/11/2020 18:09:18]: User command was 'db count'
+[INFO][23/11/2020 18:09:24]: User command was 'show devices modbus'
+[INFO][23/11/2020 18:09:30]: User command was 'show devices siemens'
+[INFO][23/11/2020 18:09:32]: User command was ''
+[INFO][23/11/2020 18:09:32]: User command was ''
+[INFO][23/11/2020 18:09:32]: User command was ''
+[INFO][23/11/2020 18:09:34]: User command was 'clear'
+[INFO][23/11/2020 18:09:35]: User command was 'exit'
+[INFO][23/11/2020 18:09:35]: Exiting icsfinder
+[INFO][23/11/2020 18:12:32]: Program started
+[INFO][23/11/2020 18:12:32]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 18:12:32]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 18:12:32]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 18:12:32]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 18:12:32]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 18:12:32]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 18:12:36]: User command was 'search scada'
+[INFO][23/11/2020 18:12:43]: User command was 'host 217.175.200.11'
+[INFO][23/11/2020 18:13:14]: User command was 'host 178.115.225.102'
+[INFO][23/11/2020 18:13:29]: User command was 'clear'
+[INFO][23/11/2020 18:13:32]: User command was 'show devices'
+[INFO][23/11/2020 18:13:42]: User command was 'exit'
+[INFO][23/11/2020 18:13:42]: Exiting icsfinder
+[INFO][23/11/2020 18:21:16]: Program started
+[INFO][23/11/2020 18:21:16]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 18:21:16]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 18:21:17]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 18:21:17]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 18:21:17]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 18:21:17]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 18:21:23]: User command was 'help'
+[INFO][23/11/2020 18:21:23]: Printed help message
+[INFO][23/11/2020 18:21:36]: User command was 'show devices'
+[INFO][23/11/2020 18:21:47]: User command was 'host 178.115.225.102'
+[INFO][23/11/2020 18:21:57]: User command was 'locate 178.115.225.102'
+[INFO][23/11/2020 18:22:57]: User command was ''
+[INFO][23/11/2020 18:22:58]: User command was ''
+[INFO][23/11/2020 18:22:59]: User command was 'help'
+[INFO][23/11/2020 18:22:59]: Printed help message
+[INFO][23/11/2020 18:23:39]: User command was ''
+[INFO][23/11/2020 18:23:39]: User command was ''
+[INFO][23/11/2020 18:23:39]: User command was ''
+[INFO][23/11/2020 18:23:45]: User command was 'search devices modbus'
+[INFO][23/11/2020 18:23:56]: User command was 'show devices modbus'
+[INFO][23/11/2020 18:24:04]: User command was 'show devices dnp3'
+[INFO][23/11/2020 18:24:26]: User command was 'db count'
+[INFO][23/11/2020 18:38:57]: User command was ''
+[INFO][23/11/2020 18:38:57]: User command was ''
+[INFO][23/11/2020 18:38:58]: User command was ''
+[INFO][23/11/2020 18:39:55]: User command was 'exit'
+[INFO][23/11/2020 18:39:55]: Exiting icsfinder

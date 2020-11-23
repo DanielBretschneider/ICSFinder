@@ -83,14 +83,15 @@ def print_help_message():
     print_help_command("show apikey", "Show Shodan API key")
     print_help_command("show myip", "Show your external IP address")
     print_help_command("show info", "Returns information about current user’s API plan")
-    print_help_command("show devices", "Print already discovered devices")
+    print_help_command("show devices", "Print all already discovered devices")
+    print_help_command("show device id", "Print database record of single device with 'id'")
     print_help_subtitle("\nExplore Shodan API")
     print_help_command("search\t", "Search commands works exactly as in Shodan CLI")
     print_help_command("host\t", "Get Information about an specific host")
     print_help_subtitle("\nDatabase Related Commands")
     print_help_command("db count", "Get current number of devices found")
     print_help_subtitle("\nOther useful commands")
-    print_help_command("locate <ip>", "Returns geolocation of given IP address")
+    print_help_command("locate ip", "Returns geolocation of given IP address")
 
     # newline after help message
     print("")
@@ -138,3 +139,42 @@ def delete_file(filename):
     deletes a file
     """
     os.remove(filename)
+
+
+# ----------------------------------------------------------
+# ICMP and HTTP connectivity checks
+# ----------------------------------------------------------
+def check_icmp(ip):
+    """
+    Test if given IP address can be pinged
+    via ping -c 1
+    """
+    # try pinging ip
+    response = os.system("ping -c 1 " + ip)
+
+    # and then check the response...
+    if response == 0:
+        return True
+    else:
+        return False
+
+    return pingstatus
+
+
+def check_http(ip):
+    """
+    Check if given IP address is accessible via
+    http.
+    """
+    try:
+        # try reaching IP via http
+        response_code = requests.head("http://" + ip + "/")
+
+        # check response code
+        if response_code == 200:
+            return True
+        else:
+            return False
+    except requests.ConnectionError:
+        print("failed to connect")
+

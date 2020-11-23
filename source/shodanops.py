@@ -82,7 +82,7 @@ def shodan_search(command):
         print('Results found: {}'.format(results['total']))
         for result in results['matches']:
             print('IP: ' + result['ip_str'])
-            database.insert(str(result['ip_str']), command, str(0), "", "", str(0))
+            database.insert(str(result['ip_str']), command + ' country:AT', str(0), "", "", str(0))
     except shodan.APIError as e:
         basics.display_warning("There was an error with your query.")
         basics.log(e.value, 2)
@@ -106,6 +106,10 @@ Port: {}
 Organization: {}
 Operating System: {}
         """.format(host['ip_str'], get_host_port(host), host.get('org', 'n/a'), host.get('os', 'n/a')))
+
+        # print additional data
+        for item in host['data']:
+            print(item['data'])
     except shodan.APIError as e:
         basics.display_warning("No information available for that IP.")
 
@@ -137,12 +141,3 @@ def locate_ip(command):
     print("")
     systemcmd("curl https://api.hackertarget.com/geoip/?q=" + command.split(" ")[1])
     print("\n")
-
-def shodan_internal_search(command):
-    """
-    BA spezifisch: Wird über cmd Argumente angesteuert
-    Speichert Daten in Datenbank
-        - IP
-        - keyword
-        - ICMP Erreichbarkeit
-    """
