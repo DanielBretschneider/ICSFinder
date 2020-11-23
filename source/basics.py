@@ -31,6 +31,10 @@ def log(msg, log_level):
     1 -> [WARNING]
     2 -> [ERROR]
     """
+    # no logging if not wanted
+    if not constants.DEBUG:
+        return
+
     # choose mode -> if file doesn't exist, then create it
     mode = 'a' if os.path.exists(constants.PATH_LOGFILE) else 'w'
 

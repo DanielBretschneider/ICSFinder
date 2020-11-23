@@ -9,6 +9,11 @@
 # ----------------------------------------------------------
 
 #
+# DEBUG
+#
+DEBUG = True
+
+#
 # LOGFILE location
 #
 PATH_LOGFILE = "/home/db/dev/ICSFinder/log/icsfinderlog.log"
