@@ -14,9 +14,6 @@
 import requests
 import basics
 import constants
-import readline
-import eventlet
-import shodanops
 import os
 
 
