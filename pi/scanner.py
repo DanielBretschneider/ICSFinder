@@ -69,6 +69,7 @@ def main():
 
     # start searching
     for keyword in keywords:
+        basics.log("Processing keyword: '" + keyword + "'", 0)
         shodan_search(keyword, api)
 
     # terminate log
@@ -101,7 +102,9 @@ def get_search_keywords():
         lines = []
         for line in file_in:
             lines.append(line)
-
+    
+    basics.log("Found " + str(len(lines)) + "keywords inside '" + KEYWORD_LIST_PATH + "'", 0)
+    
     return lines
 
 

@@ -12,14 +12,13 @@
 # IMPORTS
 # ----------------------------------------------------------
 import os
-import constants
 from datetime import datetime
 
 # ----------------------------------------------------------
 # GLOBAL VARIABLES
 # ----------------------------------------------------------
 LOGFILE_PATH = "icsscanner.log"
-
+DEBUG = True
 
 # ----------------------------------------------------------
 # LOGGING
@@ -38,7 +37,7 @@ def log(msg, log_level):
     2 -> [ERROR]
     """
     # no logging if not wanted
-    if not constants.DEBUG:
+    if not DEBUG:
         return
 
     # choose mode -> if file doesn't exist, then create it
