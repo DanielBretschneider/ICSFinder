@@ -104,13 +104,24 @@ def shodan_search(command):
             # Accessible over HTTP
             http_acc = str(util.check_http(result['ip_str']))
 
-            # print information
-            print('IP: ' + ip + "\tICMP: " + icmp_acc + "\tHTTP: " + http_acc)
-
             # insert into database
             database.insert(ip, command + ' country:AT', icmp_acc,
                             str(formatted_time_string), str(formatted_time_string),
                             http_acc)
+
+            # print coloured
+            if icmp_acc == "True":
+                icmp_acc = '\33[33m' + "online" + '\033[0m'
+            elif icmp_acc == "False":
+                icmp_acc = "offline"
+
+            if http_acc == "True":
+                http_acc = '\033[1;34m' + "up" + '\033[0m'
+            elif http_acc == "False" or http_acc == "None":
+                http_acc = "down"
+
+            # print information
+            print('IP: ' + ip + "\tICMP: " + icmp_acc + "\tHTTP: " + http_acc)
     except shodan.APIError as e:
         basics.display_warning("There was an error with your query.")
         basics.log(e.value, 2)

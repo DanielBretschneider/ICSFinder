@@ -1729,3 +1729,1005 @@ no such column: None
 [INFO][23/11/2020 20:45:45]: User command was ''
 [INFO][23/11/2020 20:45:48]: User command was 'exit'
 [INFO][23/11/2020 20:45:48]: Exiting icsfinder
+[INFO][23/11/2020 20:59:22]: Program started
+[INFO][23/11/2020 20:59:22]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 20:59:22]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 20:59:22]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 20:59:22]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 20:59:22]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 20:59:22]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 20:59:35]: User command was 'db count'
+[INFO][23/11/2020 20:59:43]: User command was 'show device 897'
+[INFO][23/11/2020 21:00:14]: User command was 'show device 896'
+[INFO][23/11/2020 21:00:16]: User command was 'show device 893'
+[INFO][23/11/2020 21:01:24]: User command was 'exit'
+[INFO][23/11/2020 21:01:24]: Exiting icsfinder
+[INFO][23/11/2020 21:01:24]: Program started
+[INFO][23/11/2020 21:01:24]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:01:24]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:01:25]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:01:25]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:01:25]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:01:25]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:01:30]: User command was 'shwo device 893'
+[INFO][23/11/2020 21:01:30]: [basics.displayMessage()] -> ("'shwo device 893' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 21:01:30]: 'shwo device 893' is no valid command. Write 'help' for further information.
+[INFO][23/11/2020 21:01:35]: User command was 'show device 893'
+[INFO][23/11/2020 21:02:21]: User command was 'exit'
+[INFO][23/11/2020 21:02:21]: Exiting icsfinder
+[INFO][23/11/2020 21:02:22]: Program started
+[INFO][23/11/2020 21:02:22]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:02:22]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:02:22]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:02:22]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:02:22]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:02:22]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:02:28]: User command was 'show device 987'
+[INFO][23/11/2020 21:02:28]: Error while trying to connect to database. 
+Error:
+'NoneType' object is not iterable
+[INFO][23/11/2020 21:02:34]: User command was 'show device365'
+[INFO][23/11/2020 21:02:34]: [basics.displayMessage()] -> ("'show device365' is no valid command. Write 'help' for further information.")
+[INFO][23/11/2020 21:02:39]: User command was 'show device 365'
+[INFO][23/11/2020 21:02:48]: User command was 'show device 899'
+[INFO][23/11/2020 21:02:48]: Error while trying to connect to database. 
+Error:
+'NoneType' object is not iterable
+[INFO][23/11/2020 21:02:56]: User command was 'show device 897'
+[INFO][23/11/2020 21:03:05]: User command was 'search scada'
+[INFO][23/11/2020 21:03:43]: User command was 'exit'
+[INFO][23/11/2020 21:03:43]: Exiting icsfinder
+[INFO][23/11/2020 21:03:45]: Program started
+[INFO][23/11/2020 21:03:45]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:03:45]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:03:45]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:03:45]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:03:45]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:03:45]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:03:49]: User command was 'search scada'
+[INFO][23/11/2020 21:04:45]: User command was 'exit'
+[INFO][23/11/2020 21:04:45]: Exiting icsfinder
+[INFO][23/11/2020 21:04:46]: Program started
+[INFO][23/11/2020 21:04:46]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:04:46]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:04:46]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:04:46]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:04:46]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:04:46]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:04:50]: User command was 'search scada'
+[INFO][23/11/2020 21:04:50]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.175.200.11', 'scada country:AT', [33monline[0m, '23/11/2020 21:04:50', '23/11/2020 21:04:50', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:04:54]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.115.225.102', 'scada country:AT', [33monline[0m, '23/11/2020 21:04:50', '23/11/2020 21:04:50', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:00]: User command was 'search siemens'
+[INFO][23/11/2020 21:05:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('195.34.220.55', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.132.78.14', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:17]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.116.6.142', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:17]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.116.45.233', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:17]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.116.45.233', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.16.199.92', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:30]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.108.44.90', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:44]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.154.139.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:05:57]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.117.222.82', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:00]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('93.83.46.154', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.154.140.69', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.76.165.96', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('213.174.237.164', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.22.203.73', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:16]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('93.82.196.218', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:16]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.76.165.94', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:06:29]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.123.240.226', 'siemens country:AT', [33monline[0m, '23/11/2020 21:05:00', '23/11/2020 21:05:00', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:17]: Program started
+[INFO][23/11/2020 21:07:17]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:07:17]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:07:17]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:07:17]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:07:17]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:07:17]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:07:22]: User command was 'search siemens'
+[INFO][23/11/2020 21:07:25]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('195.34.220.55', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:26]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.132.78.14', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.116.6.142', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:07:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.116.45.233', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.116.45.233', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:49]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.16.199.92', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:07:52]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.108.44.90', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:05]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.154.139.122', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:08:18]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.117.222.82', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:08:21]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('93.83.46.154', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:34]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.154.140.69', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:08:35]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.76.165.96', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:35]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('213.174.237.164', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:35]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.22.203.73', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:38]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('93.82.196.218', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:38]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.76.165.94', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:08:51]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.123.240.226', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:09:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.46.118.110', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:09:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.142.27.136', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:09:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.122.171.76', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:09:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.122.171.76', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:09:07]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.120.224.50', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:09:17]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('195.192.92.30', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:09:30]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.189.71.238', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:09:43]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.123.205.118', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:09:54]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('90.152.131.59', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:09:57]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('185.58.54.243', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:10]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.46.106.213', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:10:11]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.117.198.208', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:11]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('92.248.45.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:12]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('92.248.45.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:15]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('185.196.176.62', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:15]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.26.115.217', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:15]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.26.115.217', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:26]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('92.248.40.106', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:10:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('90.152.200.50', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:40]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.47.227.29', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:10:40]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.122.90.170', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:10:53]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.104.155.1', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:11:06]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.104.155.1', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:11:09]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.133.81.65', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:11:09]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('194.208.5.83', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:11:19]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('195.192.36.5', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:11:32]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('46.124.106.225', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:11:43]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.114.112.28', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:11:56]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.117.125.229', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:11:56]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('109.68.110.81', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:09]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.189.57.142', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:12:09]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.20.56.242', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:22]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.119.110.79', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:12:22]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.195.123', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:22]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.195.123', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:25]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.142.66.50', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:38]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.115.245.116', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:12:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('81.94.55.29', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.117.173.170', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:39]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.113.137.138', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:49]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('194.96.236.4', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:50]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.122.75', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:50]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.114.22.78', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:12:51]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('195.70.126.85', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:04]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.53.60', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:13:07]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.53.60', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:13:07]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('85.31.4.235', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:10]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.16.200.194', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:10]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.20.198.155', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:23]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.202.78', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:13:33]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.120.44.102', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:13:34]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.219.68.94', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:45]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.186.248.245', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:13:45]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.244.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:45]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.244.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:45]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.244.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:45]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.121.244.122', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:13:58]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.20.198.142', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:14:11]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.46.140.167', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:14:11]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('46.74.54.20', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:14:24]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.146.170', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:14:34]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('80.120.35.242', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:14:47]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('93.83.100.42', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:14:57]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('89.26.106.196', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:00]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('88.116.42.50', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('188.21.91.70', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:15:26]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.115.119.202', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:15:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('90.152.133.74', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.14.236.64', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.14.236.64', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('217.14.236.64', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:27]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('90.152.196.41', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:28]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('185.161.247.74', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:28]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('83.218.162.87', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:28]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('83.218.162.87', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:28]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.119.129.89', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:41]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('46.75.53.0', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:15:41]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.46.138.50', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:41]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.79.26', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:41]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('91.112.79.26', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:42]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.117.132.162', 'siemens country:AT', [33monline[0m, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:15:55]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('85.236.251.26', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:16:08]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('85.236.251.26', 'siemens country:AT', offline, '23/11/2020 21:07:22', '23/11/2020 21:07:22', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:16:48]: User command was 'search mira'
+[INFO][23/11/2020 21:16:48]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('83.218.178.131', 'mira country:AT', [33monline[0m, '23/11/2020 21:16:48', '23/11/2020 21:16:48', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:16:49]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('213.143.111.253', 'mira country:AT', [33monline[0m, '23/11/2020 21:16:48', '23/11/2020 21:16:48', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:18:39]: User command was 'search somatom'
+[INFO][23/11/2020 21:18:56]: User command was 'search teamplay'
+[INFO][23/11/2020 21:19:36]: User command was 'search mobilett'
+[INFO][23/11/2020 21:20:29]: User command was 'search asfinag'
+[INFO][23/11/2020 21:21:39]: Program started
+[INFO][23/11/2020 21:21:39]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][23/11/2020 21:21:39]: Attemting to ping 'http://www.google.com/'
+[INFO][23/11/2020 21:21:39]: Successfully pinged 'http://www.google.com/'
+[INFO][23/11/2020 21:21:39]: [basics.displayMessage()] -> ("Host is online")
+[INFO][23/11/2020 21:21:39]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][23/11/2020 21:21:39]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][23/11/2020 21:21:43]: User command was 'search asfinag'
+[INFO][23/11/2020 21:21:58]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('81.25.209.12', 'asfinag country:AT', offline, '23/11/2020 21:21:43', '23/11/2020 21:21:43', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:22:09]: User command was 'search webcam city:vienna'
+[INFO][23/11/2020 21:22:15]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.113.47.93', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:22:15]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.116.78.107', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:22:28]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.117.153.177', 'webcam city:vienna country:AT', offline, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:22:38]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.83.17.207', 'webcam city:vienna country:AT', offline, '23/11/2020 21:22:09', '23/11/2020 21:22:09', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:22:48]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('193.83.17.207', 'webcam city:vienna country:AT', offline, '23/11/2020 21:22:09', '23/11/2020 21:22:09', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:01]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.117.225.53', 'webcam city:vienna country:AT', offline, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:23:01]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.186.79.69', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:11]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.112.55.222', 'webcam city:vienna country:AT', offline, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:23:14]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('213.90.111.162', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:20]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('185.128.245.180', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:20]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('78.132.60.48', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:21]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('46.125.67.223', 'webcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:22:09', '23/11/2020 21:22:09', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:22]: User command was ''
+[INFO][23/11/2020 21:23:22]: User command was ''
+[INFO][23/11/2020 21:23:23]: User command was ''
+[INFO][23/11/2020 21:23:24]: User command was ''
+[INFO][23/11/2020 21:23:25]: User command was ''
+[INFO][23/11/2020 21:23:32]: User command was 'search webcamxp city:vienna'
+[INFO][23/11/2020 21:23:44]: User command was 'search netcam city:vienna'
+[INFO][23/11/2020 21:23:46]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('77.117.140.120', 'netcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:23:59]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('194.118.168.211', 'netcam city:vienna country:AT', offline, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:23:59]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.178.63.151', 'netcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:23:44', '23/11/2020 21:23:44', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:24:12]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('178.113.86.252', 'netcam city:vienna country:AT', offline, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:24:12]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('90.152.203.87', 'netcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:24:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('62.178.149.247', 'netcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:23:44', '23/11/2020 21:23:44', [1;34mup[0m)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:24:13]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.186.133.2', 'netcam city:vienna country:AT', [33monline[0m, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+unrecognized token: ""
+[INFO][23/11/2020 21:24:26]: Error while executing sql-statement 
+INSERT INTO devices (ip_address, keywords, accessible, last_success_ping,creation_date,
+                            http_accessible)
+                          VALUES ('212.186.157.76', 'netcam city:vienna country:AT', offline, '23/11/2020 21:23:44', '23/11/2020 21:23:44', down)
+Error:
+no such column: offline
+[INFO][23/11/2020 21:27:40]: User command was 'exit'
+[INFO][23/11/2020 21:27:40]: Exiting icsfinder
+[INFO][24/11/2020 20:55:04]: Program started
+[INFO][24/11/2020 20:55:04]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][24/11/2020 20:55:04]: Attemting to ping 'http://www.google.com/'
+[INFO][24/11/2020 20:55:04]: Successfully pinged 'http://www.google.com/'
+[INFO][24/11/2020 20:55:04]: [basics.displayMessage()] -> ("Host is online")
+[INFO][24/11/2020 20:55:04]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][24/11/2020 20:55:04]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][24/11/2020 20:55:05]: User command was ''
+[INFO][24/11/2020 20:55:05]: User command was ''
+[INFO][24/11/2020 20:55:11]: User command was 'help'
+[INFO][24/11/2020 20:55:11]: Printed help message
+[INFO][24/11/2020 20:55:25]: User command was 'show devices'
+[INFO][24/11/2020 20:55:45]: User command was 'exit'
+[INFO][24/11/2020 20:55:45]: Exiting icsfinder
+[INFO][24/11/2020 20:55:47]: Program started
+[INFO][24/11/2020 20:55:47]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][24/11/2020 20:55:47]: Attemting to ping 'http://www.google.com/'
+[INFO][24/11/2020 20:55:48]: Successfully pinged 'http://www.google.com/'
+[INFO][24/11/2020 20:55:48]: [basics.displayMessage()] -> ("Host is online")
+[INFO][24/11/2020 20:55:48]: [basics.displayMessage()] -> ("Connection to database established")
+[INFO][24/11/2020 20:55:48]: Database connection established. path: '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][24/11/2020 20:55:49]: User command was 'help'
+[INFO][24/11/2020 20:55:49]: Printed help message
+[INFO][24/11/2020 21:00:56]: User command was ''
+[INFO][24/11/2020 21:00:56]: User command was ''
+[INFO][24/11/2020 21:00:56]: User command was ''
+[INFO][24/11/2020 21:00:57]: User command was 'exit'
+[INFO][24/11/2020 21:00:57]: Exiting icsfinder
+[INFO][24/11/2020 21:01:12]: Program started
+[INFO][24/11/2020 21:01:12]: [basics.displayMessage()] -> ("ICSFINDER v1.3 started")
+[INFO][24/11/2020 21:01:12]: Attemting to ping 'http://www.google.com/'
+[INFO][24/11/2020 21:01:13]: Successfully pinged 'http://www.google.com/'
+[INFO][24/11/2020 21:01:13]: [basics.displayMessage()] -> ("Host is online")
+[INFO][24/11/2020 21:01:13]: [basics.displayWarning()] -> ("No database file found in 'db' folder")
+[INFO][24/11/2020 21:01:13]: database file was create: /home/db/dev/ICSFinder/db/icsfinder.db
+[INFO][24/11/2020 21:01:13]: [basics.displayWarning()] -> ("Database created at '/home/db/dev/ICSFinder/db/icsfinder.db'")
+[INFO][24/11/2020 21:01:13]: Database created at '/home/db/dev/ICSFinder/db/icsfinder.db'
+[INFO][24/11/2020 21:01:13]: [basics.displayWarning()] -> ("Table 'devices' was created inside /home/db/dev/ICSFinder/db/icsfinder.db")
+[INFO][24/11/2020 21:01:13]: table devices has been created in database using following statement: 
+
+[INFO][24/11/2020 21:01:13]: 
+                                CREATE TABLE IF NOT EXISTS devices (
+                                    id INTEGER PRIMARY KEY,
+                                    ip_address TEXT NOT NULL,
+                                    keywords TEXT NOT NULL,
+                                    accessible INTEGER NOT NULL,
+                                    last_success_ping TEXT NOT NULL,
+                                    creation_date TEXT NOT NULL,
+                                    http_accessible INTEGER NOT NULL
+                                )
+[INFO][24/11/2020 21:01:17]: User command was 'exit'
+[INFO][24/11/2020 21:01:17]: Exiting icsfinder

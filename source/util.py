@@ -16,6 +16,7 @@ import basics
 import constants
 import readline
 import eventlet
+import shodanops
 import os
 
 
@@ -93,6 +94,7 @@ def print_help_message():
     print_help_command("db count", "Get current number of devices found")
     print_help_subtitle("\nOther useful commands")
     print_help_command("locate ip", "Returns geolocation of given IP address")
+    print_help_command("update ip", "Update and show ICMP and HTTP accessibility of given ip")
 
     # newline after help message
     print("")
@@ -142,6 +144,60 @@ def delete_file(filename):
     os.remove(filename)
 
 
+def create_icsfinder_folderstructur():
+    """
+    Create /home/ICSFinder
+        -> log
+        -> db
+        -> shodankey/ḱey.txt + shout if empty
+    """
+    # root
+    create_folder_if_not_exists(constants.PATH_ICSFINDER_ROOT)
+    # logfile directory
+    create_folder_if_not_exists(constants.PATH_LOG_FOLDER)
+    # database directory
+    create_folder_if_not_exists(constants.DATABASE_PATH)
+    # shodankey
+    create_folder_if_not_exists(constants.PATH_SHODANKEY)
+
+    basics.log("Program started", 0)
+    basics.display_message("ICSFINDER v1.3 started")
+
+    # shodan key file
+    create_shodan_key_file_if_not_exists()
+
+
+def create_folder_if_not_exists(path):
+    """
+    Create folder at given path
+    """
+    if not os.path.exists(path):
+        os.makedirs(path)
+        print("[*] created: '" + path + "'")
+
+
+def create_shodan_key_file_if_not_exists():
+    """
+    Checks if shodan key file exists, if not
+    it will be created on user has to input the
+    key. IF empty = Error
+    """
+    if not check_if_file_exists(constants.SHODAN_API_KEY_FILE):
+        # create file
+        create_file(constants.SHODAN_API_KEY_FILE)
+
+        # ask user to input key
+        shodankey = input("Please input your shodan api key: ")
+
+        # inform user
+        basics.display_warning("In case you are getting error because of an invalid shodan key, then feel free to "
+                               "correct your key inside '" + constants.SHODAN_API_KEY_FILE + "'")
+
+        # write given key into shodan key file
+        with open(constants.SHODAN_API_KEY_FILE, "w") as shodan_key_file:
+            shodan_key_file.write(shodankey)
+
+
 # ----------------------------------------------------------
 # ICMP and HTTP connectivity checks
 # ----------------------------------------------------------
@@ -177,6 +233,11 @@ def check_http(ip):
             return True
         else:
             return False
-    except requests.ConnectionError:
+    except Exception:
         return False
+
+def check_duplicate(ip):
+    """
+    Check if ip already exists in database
+    """
 

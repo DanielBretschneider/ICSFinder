@@ -15,16 +15,9 @@ __created__ = "28.10.2020"
 # IMPORTS
 # ----------------------------------------------------------
 import basics
-import constants
 import database
 import util
 import shodanops
-
-
-# ----------------------------------------------------------
-# GLOBAL VARIABLES
-# ----------------------------------------------------------
-DB_CONNECTION = None
 
 
 # ----------------------------------------------------------
@@ -36,6 +29,9 @@ def main():
     """
     Main method
     """
+    # create folder if not exists
+    util.create_icsfinder_folderstructur()
+
     # starting checks 
     startup_checks()
 
@@ -65,7 +61,7 @@ def start_interactive_console():
 
         # switch 
         if command == "exit":
-            basics.log("Exiting icsfinder", 0)
+            basics.log("Exiting ICSFinder", 0)
             exit()
         elif command == "help":
             util.print_help_message()
@@ -151,6 +147,4 @@ def database_operations(command):
 # START OF PROGRAM
 # ----------------------------------------------------------
 if __name__ == "__main__":
-    basics.log("Program started", 0)
-    basics.display_message("ICSFINDER v1.3 started")
     main()

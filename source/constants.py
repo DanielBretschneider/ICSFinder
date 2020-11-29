@@ -8,15 +8,37 @@
 #
 # ----------------------------------------------------------
 
+from os.path import expanduser
+
 #
 # DEBUG
 #
 DEBUG = True
 
 #
+# ROOT FOLDER
+#
+ROOT = expanduser("~")
+
+#
+# ICSFINDER ROOT
+#
+PATH_ICSFINDER_ROOT = ROOT + "/ICSFinder"
+
+#
+# LOG FOLDER
+#
+PATH_LOG_FOLDER = PATH_ICSFINDER_ROOT + "/log"
+
+#
 # LOGFILE location
 #
-PATH_LOGFILE = "/home/db/dev/ICSFinder/log/icsfinderlog.log"
+PATH_LOGFILE = PATH_LOG_FOLDER + "/icsfinderlog.log"
+
+#
+# SHODAN KEY FILE
+#
+PATH_SHODANKEY = PATH_ICSFINDER_ROOT + "/shodankey"
 
 #
 # CONSOLE PREFIX
@@ -24,19 +46,19 @@ PATH_LOGFILE = "/home/db/dev/ICSFinder/log/icsfinderlog.log"
 CONSOLE_PREFIX = '\033[1;31m' + "icscon " + '\033[0m' + "> "
 
 #
-# DATBASE NAME
-#
-DATABASE_FILE = "icsfinder.db"
-
-#
 # PATH TO DB FOLDER
 #
-DATABASE_PATH = "/home/db/dev/ICSFinder/db/"
+DATABASE_PATH = PATH_ICSFINDER_ROOT + "/db"
+
+#
+# DATBASE NAME
+#
+DATABASE_FILE = "/icsfinder.db"
 
 #
 # SHODAN API KEY
 #
-SHODAN_API_KEY_FILE = "/home/db/dev/shodankey/key.txt"
+SHODAN_API_KEY_FILE = PATH_SHODANKEY + "/key.txt"
 
 #
 # Create table statement

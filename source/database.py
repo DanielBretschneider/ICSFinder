@@ -99,15 +99,42 @@ def insert(ip, keywords, accessible, last_successful_ping, creation_date, http_a
                           VALUES ('""" + ip + "', '" + keywords + "', " + accessible + ", '" + last_successful_ping +\
                             "', '" + creation_date + "', " + http_access + ")"
 
+    # check if device already has been discovered
+    if duplicate_check(ip):
+        try:
+            # execute insert statement
+            # connection to db
+            connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
+            cursor = connection.cursor()
+            cursor.execute(insert_statement)
+            connection.commit()
+        except Exception as e:
+            basics.log("Error while executing sql-statement \n" + insert_statement + "\nError:\n" + str(e), 0)
+    else:
+        basics.log("Device with IP address " + ip + " has already been inserted into database, no action required", 0)
+
+
+def duplicate_check(ip):
+    """
+    Check if g. IP address already exists in database
+    True if it is a new device, False if it already has an entry
+    """
+    select_statement = "SELECT ip_address FROM devices WHERE ip_address='" + ip + "';"
+
+    # if fetched records > 0 -> IP exists
     try:
-        # execute insert statement
-        # connection to db
+        # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
         cursor = connection.cursor()
-        cursor.execute(insert_statement)
-        connection.commit()
+        cursor.execute(select_statement)
+        data = cursor.fetchall()
+
+        if len(data) == 0:
+            return True
+
+        return False
     except Exception as e:
-        basics.log("Error while executing sql-statement \n" + insert_statement + "\nError:\n" + str(e), 0)
+        basics.log("Error while trying to connect to database. \nError:\n" + str(e), 0)
 
 
 def print_found_devices():
@@ -117,7 +144,7 @@ def print_found_devices():
     try:
         # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices")
+        cursor = connection.execute("SELECT id, ip_address, keywords, accessible, http_accessible FROM devices")
         found_records = cursor.fetchall()
 
         # print table header
@@ -138,7 +165,8 @@ def print_device_with_id(id):
     try:
         # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices WHERE id=" + str(id))
+        cursor = connection.execute("SELECT id, ip_address, keywords, accessible, http_accessible FROM devices "
+                                    "WHERE id=" + str(id))
         record = cursor.fetchone()
         print_devices_table_header()
         print_device_formatted(record)
@@ -153,7 +181,8 @@ def print_devices_with_keyword(keyword):
     try:
         # database connection
         connection = sqlite3.connect(constants.DATABASE_PATH + constants.DATABASE_FILE)
-        cursor = connection.execute("SELECT id, ip_address, keywords FROM devices WHERE keywords LIKE \'%" +
+        cursor = connection.execute("SELECT id, ip_address, keywords, accessible, http_accessible FROM devices "
+                                    "WHERE keywords LIKE \'%" +
                                     str(keyword) + "%\'")
         records = cursor.fetchall()
         print_devices_table_header()
@@ -170,7 +199,22 @@ def print_device_formatted(record):
     Print single Record Formatted
     """
     record_lst = list(record)
-    print(str(record_lst[0]) + "\t" + str(record_lst[1]) + "\t" + str(record_lst[2]))
+
+    icmp_acc = str(record_lst[3])
+    http_acc = str(record_lst[4])
+
+    if icmp_acc == "1":
+        icmp_acc = '\33[33m' + "online" + '\033[0m'
+    elif icmp_acc == "0":
+        icmp_acc = "offline"
+
+    if http_acc == "1":
+        http_acc = '\033[1;34m' + "up" + '\033[0m'
+    elif http_acc == "0":
+        http_acc = "down"
+
+    print(str(record_lst[0]) + "\t" + str(record_lst[1]) + "\t" + str(record_lst[2]) + "\t" + icmp_acc + "\t" +
+          http_acc)
 
 
 def print_devices_table_header():
