@@ -1,0 +1,44 @@
+[INFO][29/11/2020 14:17:46]: Process started (29/11/2020 14:17:46)
+[INFO][29/11/2020 14:17:46]: database file was created: /share/icsfinder_database.db
+[INFO][29/11/2020 14:17:46]: Database created at '/share/icsfinder_database.db'
+[INFO][29/11/2020 14:17:46]: Table 'devices' was created inside /share/icsfinder_database.db
+[INFO][29/11/2020 14:17:46]: table devices has been created in database using following statement: 
+
+[INFO][29/11/2020 14:17:46]: 
+                                CREATE TABLE IF NOT EXISTS devices (
+                                    id INTEGER PRIMARY KEY,
+                                    ip_address TEXT NOT NULL,
+                                    keywords TEXT NOT NULL,
+                                    accessible INTEGER NOT NULL,
+                                    last_success_ping TEXT NOT NULL,
+                                    creation_date TEXT NOT NULL,
+                                    http_accessible INTEGER NOT NULL
+                                )
+[INFO][29/11/2020 14:17:46]: Found 2 keywords inside '/home/pi/ICSScanner/list/searches.txt'
+[INFO][29/11/2020 14:17:46]: Processing keyword: 'scada'
+[INFO][29/11/2020 14:17:51]: Found IP :178.115.225.102	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:17:51]: Processing keyword: 'modbus'
+[INFO][29/11/2020 14:18:03]: Found IP :90.152.143.209	ICMP: False	HTTP: False
+[INFO][29/11/2020 14:18:16]: Found IP :178.112.71.43	ICMP: False	HTTP: False
+[INFO][29/11/2020 14:18:16]: Found IP :90.152.129.178	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:18:17]: Found IP :212.67.225.132	ICMP: True	HTTP: False
+[INFO][29/11/2020 14:18:17]: Found IP :77.117.137.146	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:18:17]: Process terminated (29/11/2020 14:17:46)
+[INFO][29/11/2020 14:18:41]: Process started (29/11/2020 14:18:41)
+[INFO][29/11/2020 14:18:41]: Database connection established. path: '/share/icsfinder_database.db'
+[INFO][29/11/2020 14:18:41]: Found 2 keywords inside '/home/pi/ICSScanner/list/searches.txt'
+[INFO][29/11/2020 14:18:41]: Processing keyword: 'scada'
+[INFO][29/11/2020 14:18:51]: Device with IP address 178.115.225.102 has already been inserted into database, no action required
+[INFO][29/11/2020 14:18:51]: Found IP :178.115.225.102	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:18:51]: Processing keyword: 'modbus'
+[INFO][29/11/2020 14:19:04]: Device with IP address 90.152.143.209 has already been inserted into database, no action required
+[INFO][29/11/2020 14:19:04]: Found IP :90.152.143.209	ICMP: False	HTTP: False
+[INFO][29/11/2020 14:19:17]: Device with IP address 178.112.71.43 has already been inserted into database, no action required
+[INFO][29/11/2020 14:19:17]: Found IP :178.112.71.43	ICMP: False	HTTP: False
+[INFO][29/11/2020 14:19:17]: Device with IP address 90.152.129.178 has already been inserted into database, no action required
+[INFO][29/11/2020 14:19:17]: Found IP :90.152.129.178	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:19:18]: Device with IP address 212.67.225.132 has already been inserted into database, no action required
+[INFO][29/11/2020 14:19:18]: Found IP :212.67.225.132	ICMP: True	HTTP: False
+[INFO][29/11/2020 14:19:18]: Device with IP address 77.117.137.146 has already been inserted into database, no action required
+[INFO][29/11/2020 14:19:18]: Found IP :77.117.137.146	ICMP: True	HTTP: True
+[INFO][29/11/2020 14:19:18]: Process terminated (29/11/2020 14:18:41)

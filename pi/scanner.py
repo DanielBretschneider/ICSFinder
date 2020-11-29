@@ -12,6 +12,9 @@
 # ----------------------------------------------------------
 import os
 import requests
+import basics
+import shodan
+import sqlite3
 from datetime import datetime
 
 
@@ -56,7 +59,7 @@ def main():
     basics.log("Process started (" + formatted_time_string + ")", 0)
     
     # create connection to database
-    create_database_connection
+    create_database_connection()
 
     # get key
     shodankey = str(get_shodan_key())
@@ -100,10 +103,10 @@ def get_search_keywords():
     """
     with open(KEYWORD_LIST_PATH) as file_in:
         lines = []
-        for line in file_in:
-            lines.append(line)
+        for line in file_in.readlines():
+            lines.append(line.replace("\n", ""))
     
-    basics.log("Found " + str(len(lines)) + "keywords inside '" + KEYWORD_LIST_PATH + "'", 0)
+    basics.log("Found " + str(len(lines)) + " keywords inside '" + KEYWORD_LIST_PATH + "'", 0)
     
     return lines
 
@@ -145,7 +148,8 @@ def shodan_search(keyword, api):
             insert(ip, keyword + ' country:AT', icmp_acc,
                 str(formatted_time_string), str(formatted_time_string),
                 http_acc)
-
+            # log
+            basics.log("Found IP :" + ip + "\tICMP: " + icmp_acc + "\tHTTP: " + http_acc, 0)
     except shodan.APIError as e:
         basics.log(e.value, 2)
 
